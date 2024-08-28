@@ -22,5 +22,5 @@
 * [Email]([vibheksoni@engineer.com])
 
 <p align="center">
-  [![Vibhek's GitHub stats](https://github-readme-stats.vercel.app/api?username=vibheksoni)](https://github.com/vibheksoni/github-readme-stats)
+  [Vibhek's GitHub stats](https://github-readme-stats.vercel.app/api?username=vibheksoni)]
 </p>
