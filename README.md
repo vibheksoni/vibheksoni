@@ -25,8 +25,8 @@
 ## **🚀 Projects**
 
 ### **🧑‍💻 Open-Source Contributions**
-- **[Project Name](#):** Brief description or objective of the project.
-- **[Another Project](#):** Brief description or objective of the project.
+
+**N/A**
 
 ### **🔨 Personal Projects**
 - **[Virtual Machine/Assembly Implementation](#):** A project focused on understanding the basics of virtual machines and assembly.
