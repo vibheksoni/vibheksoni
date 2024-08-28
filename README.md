@@ -26,7 +26,7 @@
 
 ### **🧑‍💻 Open-Source Contributions**
 
-**N/A**
+- **N/A**
 
 ### **🔨 Personal Projects**
 - **[Virtual Machine/Assembly Implementation](#):** A project focused on understanding the basics of virtual machines and assembly.
