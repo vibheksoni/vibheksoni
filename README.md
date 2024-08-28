@@ -22,5 +22,15 @@
 * [Email]([vibheksoni@engineer.com])
 
 <p align="center">
-  [Vibhek's GitHub stats](https://github-readme-stats.vercel.app/api?username=vibheksoni)]
+  <picture>
+    <source
+      srcset="https://github-readme-stats.vercel.app/api?username=vibheksoni&show_icons=true&theme=dark"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api?username=vibheksoni&show_icons=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api?username=vibheksoni&show_icons=true" />
+  </picture>
 </p>
