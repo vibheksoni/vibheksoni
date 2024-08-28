@@ -22,27 +22,5 @@
 * [Email]([vibheksoni@engineer.com])
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vibheksoni&style=flat-square&color=blue" alt="Vibhek Soni's GitHub Stats" />
+  [![Vibhek's GitHub stats](https://github-readme-stats.vercel.app/api?username=vibheksoni)](https://github.com/vibheksoni/github-readme-stats)
 </p>
-
-<style>
-body {
-  font-family: 'Arial', sans-serif; /* Choose a professional font */
-  line-height: 1.6;
-  color: #333; /* Dark gray text */
-  margin: 20px;
-}
-
-h1, h2 {
-  color: #007bff; /* Blue heading color */
-}
-
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-</style>
