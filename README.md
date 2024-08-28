@@ -90,9 +90,9 @@
 ## **📈 Daily Coding Activity**
 
 <!--START_SECTION:waka-->
-Python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;hrs&nbsp;12&nbsp;mins&nbsp;&nbsp;███████████████░░░░░░░░░░░░&nbsp;
-C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;hrs&nbsp;45&nbsp;mins&nbsp;&nbsp;████████░░░░░░░░░░░░░░░░&nbsp;
-C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;hr&nbsp;18&nbsp;mins&nbsp;&nbsp;███░░░░░░░░░░░░░░░░░░░░░░&nbsp;
+Python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;hrs&nbsp;12&nbsp;mins&nbsp;&nbsp;███████████████░░░░░░░░░░░░&nbsp;<br>
+C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;hrs&nbsp;45&nbsp;mins&nbsp;&nbsp;████████░░░░░░░░░░░░░░░░&nbsp;<br>
+C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;hr&nbsp;18&nbsp;mins&nbsp;&nbsp;███░░░░░░░░░░░░░░░░░░░░░░&nbsp;<br>
 
 <!--END_SECTION:waka-->
 
