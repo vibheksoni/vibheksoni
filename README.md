@@ -60,15 +60,15 @@
 
 ## **📊 GitHub Stats**
 
-<div align="center" style="margin-bottom: 20px;">
+<div align="center" style="margin-bottom: 40px;">
   <img src="https://github-readme-stats.vercel.app/api?username=vibheksoni&show_icons=true&theme=dark" alt="Vibhek Soni's GitHub Stats" style="margin-bottom: 20px;" />
 </div>
 
-<div align="center" style="margin-bottom: 20px;">
+<div align="center" style="margin-bottom: 40px;">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=vibheksoni&theme=dark" alt="Vibhek Soni's GitHub Streak" style="margin-bottom: 20px;" />
 </div>
 
-<div align="center" style="margin-bottom: 20px;">
+<div align="center" style="margin-bottom: 40px;">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vibheksoni&theme=dark" alt="Vibhek Soni's GitHub Summary" />
 </div>
 
