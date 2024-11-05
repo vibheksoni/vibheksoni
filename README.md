@@ -9,6 +9,11 @@
 
 - **Email**: vibheksoni@engineer.com
 
+## **🌐 Socials**
+
+- **X** ~ https://x.com/ItsVibhek
+- **Instagram** ~ https://www.instagram.com/nyc.vibhek/
+
 ## **💻 Languages**
 
 - C
