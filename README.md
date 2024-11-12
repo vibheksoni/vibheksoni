@@ -1,4 +1,3 @@
-
 # Vibhek Soni
 
 <div align="center" style="margin-bottom: 20px;">
@@ -55,6 +54,72 @@
 ## **🏆 Achievements**
 
 - Learning c programming a new look to coding at low level.
+
+---
+
+## **🌐 Sites I Own**
+
+### Proxyit
+[https://proxyit.today/](https://proxyit.today/)
+
+Empower Your App with ProxyIt.today
+Experience true anonymity and protect your app's identity. Enhance your privacy, bolster security, and safeguard user data like never before.
+
+Start Your Free Trial Today
+Empowered app graphic
+Unlock Your App's Full Potential with ProxyIt.today
+Our cutting-edge features empower your application with unmatched security, privacy, and control.
+
+- **Unparalleled App Privacy:** Cloak your app's IP address and location effortlessly. Safeguard against potential threats and provide genuine online anonymity.
+- **Fortress Against Hackers:** Shield your app and user data from malicious attacks and unauthorized access. Your security is our top priority.
+- **Flawless Performance:** Enjoy optimal speeds without compromising on security or privacy. Your users deserve the best experience.
+
+### LlmEndpoint
+[https://llmendpoint.com/](https://llmendpoint.com/)
+
+LLMEndpoint
+👋
+Your Gateway to AI Excellence
+
+Get Started
+Try Demo →
+API Demo
+```
+/api/v1/complete
+{
+  "model": "llama3.1",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a friendly chatbot."
+    },
+    {
+      "role": "user",
+      "content": "What is quantum computing?"
+    }
+  ],
+  "max_tokens": 100,
+  "temperature": 0.7,
+  "stream": true
+}
+Response:
+Quantum computing leverages quantum mechanical phenomena like superposition and enta
+```
+
+Get 5000 Free Credits on Signup!
+Sign up today and receive 5000 free credits to explore our powerful API features.
+
+Sign Up Now
+Powerful Features
+Experience the next generation of AI interaction with our cutting-edge features
+
+- **Lightning Fast:** Experience response times under 100ms with our optimized infrastructure and efficient request handling.
+- **Enterprise Security:** Bank-grade encryption and security measures to protect your data and ensure privacy compliance.
+- **Flexible Integration:** Seamlessly integrate with any platform using our comprehensive REST API and SDKs.
+- **Advanced Analytics:** Get detailed insights into your API usage, performance metrics, and cost optimization opportunities.
+- **Auto-Scaling:** Never worry about capacity. Our infrastructure automatically scales to meet your demand.
+- **24/7 Support:** Get expert help anytime with our dedicated support team and comprehensive documentation.
+- **Transparent Pricing**
 
 ---
 
