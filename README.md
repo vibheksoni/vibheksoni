@@ -10,6 +10,7 @@
 
 ## **🌐 Socials**
 
+- **Portfolio** ~ https://vibhek.com/
 - **X** ~ https://x.com/ItsVibhek
 - **Instagram** ~ https://www.instagram.com/nyc.vibhek/
 
