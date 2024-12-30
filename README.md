@@ -69,18 +69,16 @@ mindmap
 
 <h2>🚀 Featured Projects</h2>
 
-<div align="center">
+<div>
   <a href="https://github.com/vibheksoni/FreeAiApi">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=vibheksoni&repo=FreeAiApi&theme=cyberpunk&hide_border=true" width="400" />
-    <br/>
-    <sub>🔥 Read to use rest api | 🛡️ Enterprise-grade Security</sub>
+    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=vibheksoni&repo=FreeAiApi&theme=cyberpunk&hide_border=true" />
   </a>
+  <p>🔥 Read to use rest api | 🛡️ Enterprise-grade Security</p>
   
   <a href="https://github.com/vibheksoni/GrokAiChat">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=vibheksoni&repo=GrokAiChat&theme=cyberpunk&hide_border=true" width="400" />
-    <br/>
-    <sub>🤖 Advanced AI Integration | 🔐 Secure Authentication | 📈 99.9% Uptime</sub>
+    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=vibheksoni&repo=GrokAiChat&theme=cyberpunk&hide_border=true" />
   </a>
+  <p>🤖 Advanced AI Integration | 🔐 Secure Authentication | 📈 99.9% Uptime</p>
 </div>
 
 <h2>🎯 Key Achievements</h2>
