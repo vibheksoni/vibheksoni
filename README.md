@@ -82,7 +82,7 @@ mindmap
   <p>🤖 Advanced AI Integration | 🔐 Secure Authentication | 📈 99.9% Uptime</p>
   
   <a href="https://insecuremind.xyz">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=vibheksoni&repo=InsecureMind&theme=cyberpunk&hide_border=true" />
+    Goto My Security Blog Post
   </a>
   <p>🔍 Security Research Blog | 🎓 Educational Content | 🛡️ Vulnerability Analysis</p>
 </div>
