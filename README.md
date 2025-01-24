@@ -81,7 +81,7 @@ mindmap
   </a>
   <p>🤖 Advanced AI Integration | 🔐 Secure Authentication | 📈 99.9% Uptime</p>
   
-  <a href="https://insecuremind.xyz" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-align: center; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;">
+  <a href="https://insecuremind.xyz" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-align: center; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;">
     Visit InsecureMind
   </a>
   <p>🔍 Security Research Blog | 🎓 Educational Content | 🛡️ Vulnerability Analysis</p>
