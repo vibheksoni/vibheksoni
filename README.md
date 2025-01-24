@@ -26,6 +26,7 @@ class CyberDev:
         self.name = "Vibhek Soni"
         self.education = "Computer Science @ Queens College"
         self.location = "New York"
+        self.blog = "https://insecuremind.xyz"
         self.expertise = {
             "security": ["API Security", "Network Analysis", "Vulnerability Assessment"],
             "architecture": ["System Design", "Performance Optimization", "Scalability"],
@@ -79,6 +80,11 @@ mindmap
     <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=vibheksoni&repo=GrokAiChat&theme=cyberpunk&hide_border=true" />
   </a>
   <p>🤖 Advanced AI Integration | 🔐 Secure Authentication | 📈 99.9% Uptime</p>
+  
+  <a href="https://insecuremind.xyz">
+    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=vibheksoni&repo=InsecureMind&theme=cyberpunk&hide_border=true" />
+  </a>
+  <p>🔍 Security Research Blog | 🎓 Educational Content | 🛡️ Vulnerability Analysis</p>
 </div>
 
 <h2>🎯 Key Achievements</h2>
@@ -87,6 +93,7 @@ mindmap
 - 🛡️ Implemented security measures preventing 100k+ attack attempts
 - 🚀 Maintained 99.99% uptime across multiple production systems
 - 💡 Created innovative automation solutions saving 1000+ work hours
+- 📝 Running security research blog at [InsecureMind.xyz](https://insecuremind.xyz)
 
 <h2>🛠 Tech Arsenal</h2>
 
@@ -126,8 +133,8 @@ mindmap
   <a href="mailto:vibheksoni@engineer.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://vibhek.com">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" />
+  <a href="https://insecuremind.xyz">
+    <img src="https://img.shields.io/badge/Security_Blog-000000?style=for-the-badge&logo=About.me&logoColor=white" />
   </a>
   <a href="https://x.com/ItsVibhek">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
@@ -138,6 +145,7 @@ mindmap
   
   <p>💼 Open for collaboration on security-focused projects</p>
   <p>🔒 Available for security consultations</p>
+  <p>📝 Check out my security research at <a href="https://insecuremind.xyz">InsecureMind.xyz</a></p>
 </div>
 
 <div align="center">
