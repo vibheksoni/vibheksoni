@@ -81,7 +81,7 @@ mindmap
   </a>
   <p>🤖 Advanced AI Integration | 🔐 Secure Authentication | 📈 99.9% Uptime</p>
   
-  <a href="https://insecuremind.xyz">
+  <a href="https://insecuremind.xyz" target="_blank">
     Goto My Security Blog Post
   </a>
   <p>🔍 Security Research Blog | 🎓 Educational Content | 🛡️ Vulnerability Analysis</p>
