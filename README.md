@@ -17,6 +17,12 @@
   <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Backend+Developer;Security+Engineer;System+Architect" />
 </h1>
 
+<div align="center">
+  <a href="https://app.daily.dev/vibheksoni">
+    <img src="https://api.daily.dev/devcards/v2/tRmafaxkzk18ddsKYjV09.png?r=iyh&type=wide" width="652" alt="Vibhek Soni's Dev Card"/>
+  </a>
+</div>
+
 ---
 
 ### ⚡ About Me
