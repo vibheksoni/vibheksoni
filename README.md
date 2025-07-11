@@ -149,7 +149,7 @@ mindmap
   <a href="https://insecuremind.xyz">
     <img src="https://img.shields.io/badge/Security_Blog-000000?style=for-the-badge&logo=About.me&logoColor=white" />
   </a>
-  <a href="https://x.com/ItsVibhek">
+  <a href="https://x.com/ImVibhek">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
   </a>
   <a href="https://www.instagram.com/nyc.vibhek">
