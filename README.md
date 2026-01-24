@@ -99,8 +99,13 @@ class Developer:
 
 **Discord:** 1codec
 
-Open to freelance work, collaborations, and security-focused projects.
+---
 
+### Hire Me
+
+Open for all work. Need a project done? Contact me or create a ticket at my dev agency.
+
+[![DevHive Studios](https://img.shields.io/badge/DevHive_Studios-000000?style=flat-square&logo=hive&logoColor=white)](https://devhivestudios.com)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-000000?style=flat-square&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/vibheksoni)
 
 </div>
