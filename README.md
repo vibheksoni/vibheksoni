@@ -1,166 +1,106 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Vibhek%20Soni&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff" />
-</div>
 
-<div align="center">
-  <h3>Backend Developer | Security-Focused Engineer | System Architect</h3>
-  <p>Crafting resilient, secure, and scalable systems with precision and passion</p>
-  
-  <a href="https://vibhek.com">
-    <img src="https://img.shields.io/badge/Age-20-blue?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Location-New_York-red?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Experience-6_Years-green?style=for-the-badge" />
-  </a>
-</div>
+# Vibhek Soni
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Backend+Developer;Security+Engineer;System+Architect" />
-</h1>
+**Full-Stack Backend Developer | Security Engineer**
 
-<div align="center">
-  <a href="https://app.daily.dev/vibheksoni">
-    <img src="https://api.daily.dev/devcards/v2/tRmafaxkzk18ddsKYjV09.png?r=iyh&type=wide" width="652" alt="Vibhek Soni's Dev Card"/>
-  </a>
+Building secure, scalable systems
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-vibheksoni.com-000000?style=flat-square)](https://vibheksoni.com)
+[![Blog](https://img.shields.io/badge/Blog-opendoors.wtf-000000?style=flat-square)](https://opendoors.wtf)
+
 </div>
 
 ---
 
-### ⚡ About Me
+### About
+
+Cybersecurity engineer and backend developer based in Queens, NY. Passionate about building secure, scalable systems. I dedicate significant time to researching emerging threats, developing security tools, and sharing knowledge with the community.
 
 ```python
-#!/usr/bin/python
-class CyberDev:
+class Developer:
     def __init__(self):
         self.name = "Vibhek Soni"
-        self.location = "New York, USA"
-        self.website = "https://vibhek.com"
-        self.blog = "https://insecuremind.xyz"
-        self.expertise = {
-            "security": ["API Security", "Network Analysis", "Vulnerability Assessment"],
-            "architecture": ["System Design", "Performance Optimization", "Scalability"],
-            "development": ["Backend Development", "API Integration", "Automation"]
-        }
-        self.impact = {
-            "projects_deployed": "15+",
-            "systems_secured": "100+",
-            "uptime_maintained": "99.99%"
-        }
-    
-    def get_mission(self):
-        return "Securing and optimizing digital infrastructures for a safer web"
+        self.role = "Backend Developer & Security Engineer"
+        self.location = "Queens, NY"
+        self.focus = ["Backend Architecture", "Security Research", "Automation"]
 
-me = CyberDev()
-print(me.get_mission())
+    def current_work(self):
+        return [
+            "Penetration testing methodologies",
+            "Secure API development",
+            "Security research publications"
+        ]
 ```
 
 ---
 
-### 🔒 Security & Architecture
+### Projects
 
-<details>
-<summary>Click to expand expertise</summary>
-
-```mermaid
-mindmap
-  root((Core Skills))
-    Security
-      API Security
-      Penetration Testing
-      Vulnerability Assessment
-    Architecture
-      System Design
-      Performance Optimization
-      Scalability
-    Development
-      Backend Development
-      API Integration
-      Automation
-```
-</details>
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [DevHive Studios](https://devhivestudios.com) | Freelance development agency with client onboarding, real-time chat, and crypto payments | Python, Flask, PostgreSQL, Socket.IO |
+| [VerbalCodeAI](https://github.com/vibheksoni/VerbalCodeAi) | Terminal-first AI developer assistant for exploring codebases through natural language | Python, Tree-sitter, Ollama, FastAPI |
+| [EvilChrome](https://github.com/vibheksoni/EvilChrome) | Browser security research PoC exploring Chrome runtime and profile architecture | Python, Selenium, Security Research |
+| [Stock Assist](https://github.com/vibheksoni/stock-assist) | AI-powered stock analysis platform with real-time market data | Flask, MySQL, Stripe, Google AI |
+| [RustServe](https://github.com/vibheksoni/rust-serve) | Lightweight web server built from scratch implementing HTTP from first principles | Rust, TCP, Multi-threading |
+| LlmEndpoint | Cost-effective AI API platform for open-source models | Python, Django, Redis, Docker |
 
 ---
 
-### 🚀 Featured Projects
-
-- **CyberShield**: Developed a real-time firewall system in C, utilizing iptables for dynamic traffic filtering and DDoS mitigation.
-
-- **LlmEndpoint**: Created a secure AI API platform with user authentication, token management, and usage analytics. Deployed using Docker, Flask, MySQL, Redis, and protected with Cloudflare.
-
-- **Proxyit**: Engineered an IP cloaking web platform with robust authentication, Redis-backed session management, and Cloudflare integration for enhanced security.
-
-- **StockAssist**: Built an AI-powered stock research assistant leveraging Google's AI models for real-time data analysis, charting, and sentiment evaluation. Features include 2FA, CAPTCHA, and session management.
-
-- **HostQuick**: Developed a VPS automation tool for provisioning, securing, and deploying services with Docker and firewall configurations.
-
----
-
-### 🎯 Key Achievements
-
-- 🏆 Developed high-performance APIs handling 10k+ requests daily  
-- 🛡️ Implemented security measures preventing 100k+ attack attempts  
-- 🚀 Maintained 99.99% uptime across multiple production systems  
-- 💡 Created innovative automation solutions saving 1000+ work hours  
-- 📝 Running a security research blog at [InsecureMind.xyz](https://insecuremind.xyz)  
-
----
-
-### 🛠 Tech Arsenal
+### Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,flask,mysql,redis,docker,git,linux" />
-</div>
 
-<details>
-<summary>🔍 Areas of Expertise</summary>
+**Languages**
 
-- **Security Research**
-  - API Vulnerability Assessment
-  - Authentication System Analysis
-  - Network Traffic Analysis
-  
-- **System Architecture**
-  - High-Traffic Application Design
-  - Server Management & Optimization
-  - Custom Firewall Solutions
-  
-- **Development**
-  - Backend Development
-  - API Development & Integration
-  - Automation Systems
-</details>
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![C](https://img.shields.io/badge/C-000000?style=flat-square&logo=c&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=white)
 
----
+**Frameworks**
 
-### 📈 Impact Stats
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=flat-square&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-000000?style=flat-square&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white)
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=vibheksoni&show_icons=true&theme=radical&hide_border=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=vibheksoni&theme=radical&hide_border=true" />
+**Tools**
+
+![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-000000?style=flat-square&logo=redis&logoColor=white)
+![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=white)
+
 </div>
 
 ---
 
-### 🤝 Let's Connect & Collaborate
+### Stats
 
 <div align="center">
-  <a href="mailto:vibheksoni@engineer.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://insecuremind.xyz">
-    <img src="https://img.shields.io/badge/Security_Blog-000000?style=for-the-badge&logo=About.me&logoColor=white" />
-  </a>
-  <a href="https://x.com/ImVibhek">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
-  <a href="https://www.instagram.com/nyc.vibhek">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  
-  <p>💼 Open for collaboration on security-focused projects</p>
-  <p>🔒 Available for security consultations</p>
-  <p>📝 Explore my research at <a href="https://insecuremind.xyz">InsecureMind.xyz</a></p>
+  <img src="https://github-readme-stats.vercel.app/api?username=vibheksoni&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=888888&icon_color=ffffff" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vibheksoni&theme=dark&hide_border=true&background=000000&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=888888&currStreakNum=ffffff&sideNums=888888&dates=555555" width="48%" />
 </div>
 
+---
+
+### Connect
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
+
+[![Email](https://img.shields.io/badge/Email-000000?style=flat-square&logo=gmail&logoColor=white)](mailto:vibheksoni@engineer.com)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/vibheksoni)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vibheksoni/)
+[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/ImVibhek)
+[![YouTube](https://img.shields.io/badge/YouTube-000000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@vibheksoni)
+[![Instagram](https://img.shields.io/badge/Instagram-000000?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/nyc.vibhek/)
+
+**Discord:** 1codec
+
+Open to freelance work, collaborations, and security-focused projects.
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-000000?style=flat-square&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/vibheksoni)
+
 </div>
