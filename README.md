@@ -80,8 +80,8 @@ class Developer:
 ### Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vibheksoni&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=888888&icon_color=ffffff" width="48%" />
-  <img src="https://streak-stats.demolab.com/?user=vibheksoni&theme=dark&hide_border=true&background=000000&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF&sideLabels=888888&currStreakNum=FFFFFF&sideNums=888888&dates=555555" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=vibheksoni&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=888888&icon_color=ffffff" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=vibheksoni&theme=dark&hide_border=true&background=000000" width="48%" />
 </div>
 
 ---
