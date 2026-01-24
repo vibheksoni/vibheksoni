@@ -15,21 +15,28 @@ Building secure, scalable systems
 
 ### About
 
-Cybersecurity engineer and backend developer based in Queens, NY. Passionate about building secure, scalable systems. I dedicate significant time to researching emerging threats, developing security tools, and sharing knowledge with the community.
+Self-taught backend developer and security researcher based in Queens, NY. I build tools, automation, and backend systems. I enjoy understanding how real systems work by observing network behavior, then building clean clients and tools around that knowledge.
 
 ```python
 class Developer:
     def __init__(self):
         self.name = "Vibhek Soni"
-        self.role = "Backend Developer & Security Engineer"
+        self.role = "Backend Developer & Security Researcher"
         self.location = "Queens, NY"
-        self.focus = ["Backend Architecture", "Security Research", "Automation"]
+        self.languages = ["Python", "C", "Rust"]
+        self.focus = [
+            "Backend Engineering",
+            "Security Research",
+            "Automation & Tooling",
+            "Protocol Analysis"
+        ]
 
-    def current_work(self):
+    def interests(self):
         return [
-            "Penetration testing methodologies",
-            "Secure API development",
-            "Security research publications"
+            "Traffic analysis & request reconstruction",
+            "Building tools that replicate real workflows",
+            "Finding weak points in systems",
+            "AI-assisted development"
         ]
 ```
 
@@ -39,12 +46,14 @@ class Developer:
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [DevHive Studios](https://devhivestudios.com) | Freelance development agency with client onboarding, real-time chat, and crypto payments | Python, Flask, PostgreSQL, Socket.IO |
-| [VerbalCodeAI](https://github.com/vibheksoni/VerbalCodeAi) | Terminal-first AI developer assistant for exploring codebases through natural language | Python, Tree-sitter, Ollama, FastAPI |
-| [EvilChrome](https://github.com/vibheksoni/EvilChrome) | Browser security research PoC exploring Chrome runtime and profile architecture | Python, Selenium, Security Research |
-| [Stock Assist](https://github.com/vibheksoni/stock-assist) | AI-powered stock analysis platform with real-time market data | Flask, MySQL, Stripe, Google AI |
-| [RustServe](https://github.com/vibheksoni/rust-serve) | Lightweight web server built from scratch implementing HTTP from first principles | Rust, TCP, Multi-threading |
-| LlmEndpoint | Cost-effective AI API platform for open-source models | Python, Django, Redis, Docker |
+| [stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) | MCP server for advanced CDP-based browser automation with network interception | Python, CDP, nodriver |
+| [VerbalCodeAI](https://github.com/vibheksoni/VerbalCodeAi) | Local codebase indexing and Q&A tool with embeddings and MCP support | Python, Embeddings, MCP |
+| [t3router](https://github.com/vibheksoni/t3router) | Rust SDK for t3.chat models via traffic analysis and protocol reconstruction | Rust, API Design |
+| [axiomtrade-rs](https://github.com/vibheksoni/axiomtrade-rs) | Reconstructed Rust client from Next.js bundle analysis | Rust, Reverse Engineering |
+| [stock-assist](https://github.com/vibheksoni/stock-assist) | AI stock assistant with live market data and Stripe subscriptions | Flask, Gemini, Stripe |
+| [rust-serve](https://github.com/vibheksoni/rust-serve) | HTTP server from scratch using TCP sockets | Rust, TCP, Networking |
+| [EvilChrome](https://github.com/vibheksoni/EvilChrome) | Browser profile automation PoC for security research | Python, Security Research |
+| [DevHive Studios](https://devhivestudios.com) | Freelance dev agency with real-time chat and crypto payments | Flask, PostgreSQL, Socket.IO |
 
 ---
 
