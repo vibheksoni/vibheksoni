@@ -15,77 +15,65 @@ Building secure, scalable systems
 
 ### About
 
-Self-taught backend developer and security researcher based in Queens, NY. I build tools, automation, and backend systems. I enjoy understanding how real systems work by observing network behavior, then building clean clients and tools around that knowledge.
+I build backend systems and research-driven developer tooling at the intersection of **protocol analysis**, **automation**, and **security**.
 
-```python
-class Developer:
-    def __init__(self):
-        self.name = "Vibhek Soni"
-        self.role = "Backend Developer & Security Researcher"
-        self.location = "Queens, NY"
-        self.languages = ["Python", "C", "Rust"]
-        self.focus = [
-            "Backend Engineering",
-            "Security Research",
-            "Automation & Tooling",
-            "Protocol Analysis"
-        ]
+My workflow is simple: observe real client behavior, reconstruct the protocol surface, then ship production-grade tools and SDKs around it.
 
-    def interests(self):
-        return [
-            "Traffic analysis & request reconstruction",
-            "Building tools that replicate real workflows",
-            "Finding weak points in systems",
-            "AI-assisted development"
-        ]
-```
+I focus on hard engineering problems where reverse engineering, distributed data pipelines, and product execution meet.
+
+### Current Focus
+
+- Building a **central intelligence platform** that unifies signals from leaks, forums, social channels, and public web sources into one searchable system.
+- Designing **cross-channel retrieval** with AI-assisted query understanding and noise reduction.
+- Actively researching client-side behavior and protocol flows for **X**, **Instagram**, and **Discord**.
 
 ---
 
 ### Projects
 
+#### Security Research & Reverse Engineering
+
 | Project | Description | Stack |
 |---------|-------------|-------|
 | [stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) | MCP-compatible browser automation toolkit built on nodriver and CDP for resilient web workflows. | Python, CDP, MCP |
 | [dma-spoofer](https://github.com/vibheksoni/dma-spoofer) | Rust research project exploring DMA-based hardware identifier modification techniques. | Rust, Windows, DMA |
-| [ferrox](https://github.com/vibheksoni/ferrox) | Rust security research codebase for studying infostealer tradecraft, anti-analysis behavior, and defensive detection ideas. | Rust, Malware Research |
-| [t3router](https://github.com/vibheksoni/t3router) | Rust client library for paid t3.chat accounts with conversation handling and multi-model access. | Rust, SDK, AI APIs |
-| [axiomtrade-rs](https://github.com/vibheksoni/axiomtrade-rs) | High-performance Rust SDK for Axiom Trade with WebSocket/HTTP support for algorithmic trading workflows. | Rust, Trading APIs |
+| [ferrox](https://github.com/vibheksoni/ferrox) | Rust security research codebase for studying infostealer tradecraft, anti-analysis behavior, and defensive detection patterns. | Rust, Malware Research |
+| [unbuned](https://github.com/vibheksoni/unbuned) | Pure-Python reverse engineering tool that extracts JavaScript from Bun-compiled executables. | Python, Reverse Engineering |
+
+#### Developer Tooling, SDKs & MCP
+
+| Project | Description | Stack |
+|---------|-------------|-------|
 | [VerbalCodeAI](https://github.com/vibheksoni/VerbalCodeAi) | Terminal AI assistant for codebase exploration using embeddings and LLM-powered analysis. | Python, Embeddings, CLI |
 | [UniClaudeProxy](https://github.com/vibheksoni/UniClaudeProxy) | FastAPI proxy that lets Claude Code route through Anthropic, OpenAI-compatible APIs, Gemini, Ollama, and more. | Python, FastAPI, Proxy |
+| [t3router](https://github.com/vibheksoni/t3router) | Rust client library for paid t3.chat accounts with conversation handling and multi-model access. | Rust, SDK, AI APIs |
 | [GrokAiChat](https://github.com/vibheksoni/GrokAiChat) | Python library for interacting with Grok via X account authentication and conversation management. | Python, SDK |
-| [cloneme](https://github.com/vibheksoni/cloneme) | AI digital twin platform focused on memory, persona behavior, and multi-platform conversational workflows. | Python, AI Systems |
-| [unbuned](https://github.com/vibheksoni/unbuned) | Pure-Python reverse engineering tool that extracts JavaScript from Bun-compiled executables. | Python, Reverse Engineering |
 | [pypi-query-mcp-server](https://github.com/vibheksoni/pypi-query-mcp-server) | MCP server for PyPI metadata, dependency resolution, compatibility checks, and package intelligence. | Python, MCP, PyPI |
-| [rust-serve](https://github.com/vibheksoni/rust-serve) | Lightweight multi-threaded Rust HTTP server built from first principles to learn core web internals. | Rust, TCP, HTTP |
+
+#### Product & Platform Engineering
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [axiomtrade-rs](https://github.com/vibheksoni/axiomtrade-rs) | High-performance Rust SDK for Axiom Trade with WebSocket/HTTP support for algorithmic trading workflows. | Rust, Trading APIs |
 | [stock-assist](https://github.com/vibheksoni/stock-assist) | AI-powered stock analysis SaaS platform with realtime data, subscriptions, and production deployment history. | Python, Flask, Finance |
+| [cloneme](https://github.com/vibheksoni/cloneme) | AI digital twin platform focused on memory, persona behavior, and multi-platform conversational workflows. | Python, AI Systems |
+| [rust-serve](https://github.com/vibheksoni/rust-serve) | Lightweight multi-threaded Rust HTTP server built from first principles to learn core web internals. | Rust, TCP, HTTP |
 | [DevHive Studios](https://devhivestudios.com) | Freelance development agency platform with realtime project collaboration and client workflows. | Flask, PostgreSQL, Socket.IO |
 
 ---
 
-### Tech Stack
+### Core Stack I Ship With
 
 <div align="center">
-
-**Languages**
 
 ![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![C](https://img.shields.io/badge/C-000000?style=flat-square&logo=c&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=white)
-
-**Frameworks**
-
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=flat-square&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-000000?style=flat-square&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white)
-
-**Tools**
-
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-000000?style=flat-square&logo=redis&logoColor=white)
-![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux&logoColor=white)
 
 </div>
@@ -114,11 +102,15 @@ class Developer:
 
 ---
 
-### Hire Me
+### Collaboration
 
-Open for all work. Need a project done? Contact me or create a ticket at my dev agency.
+Open to high-impact engineering and research work in:
 
-[![DevHive Studios](https://img.shields.io/badge/DevHive_Studios-000000?style=flat-square&logo=hive&logoColor=white)](https://devhivestudios.com)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-000000?style=flat-square&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/vibheksoni)
+- Backend systems and API architecture
+- Security research and protocol analysis
+- AI-powered retrieval, indexing, and intelligence workflows
+
+**Best contact for serious inquiries:** [vibheksoni@engineer.com](mailto:vibheksoni@engineer.com)
+
 
 </div>
