@@ -46,14 +46,20 @@ class Developer:
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) | MCP server for advanced CDP-based browser automation with network interception | Python, CDP, nodriver |
-| [VerbalCodeAI](https://github.com/vibheksoni/VerbalCodeAi) | Local codebase indexing and Q&A tool with embeddings and MCP support | Python, Embeddings, MCP |
-| [t3router](https://github.com/vibheksoni/t3router) | Rust SDK for t3.chat models via traffic analysis and protocol reconstruction | Rust, API Design |
-| [axiomtrade-rs](https://github.com/vibheksoni/axiomtrade-rs) | Reconstructed Rust client from Next.js bundle analysis | Rust, Reverse Engineering |
-| [stock-assist](https://github.com/vibheksoni/stock-assist) | AI stock assistant with live market data and Stripe subscriptions | Flask, Gemini, Stripe |
-| [rust-serve](https://github.com/vibheksoni/rust-serve) | HTTP server from scratch using TCP sockets | Rust, TCP, Networking |
-| [EvilChrome](https://github.com/vibheksoni/EvilChrome) | Browser profile automation PoC for security research | Python, Security Research |
-| [DevHive Studios](https://devhivestudios.com) | Freelance dev agency with real-time chat and crypto payments | Flask, PostgreSQL, Socket.IO |
+| [stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) | MCP-compatible browser automation toolkit built on nodriver and CDP for resilient web workflows. | Python, CDP, MCP |
+| [dma-spoofer](https://github.com/vibheksoni/dma-spoofer) | Rust research project exploring DMA-based hardware identifier modification techniques. | Rust, Windows, DMA |
+| [ferrox](https://github.com/vibheksoni/ferrox) | Rust security research codebase for studying infostealer tradecraft, anti-analysis behavior, and defensive detection ideas. | Rust, Malware Research |
+| [t3router](https://github.com/vibheksoni/t3router) | Rust client library for paid t3.chat accounts with conversation handling and multi-model access. | Rust, SDK, AI APIs |
+| [axiomtrade-rs](https://github.com/vibheksoni/axiomtrade-rs) | High-performance Rust SDK for Axiom Trade with WebSocket/HTTP support for algorithmic trading workflows. | Rust, Trading APIs |
+| [VerbalCodeAI](https://github.com/vibheksoni/VerbalCodeAi) | Terminal AI assistant for codebase exploration using embeddings and LLM-powered analysis. | Python, Embeddings, CLI |
+| [UniClaudeProxy](https://github.com/vibheksoni/UniClaudeProxy) | FastAPI proxy that lets Claude Code route through Anthropic, OpenAI-compatible APIs, Gemini, Ollama, and more. | Python, FastAPI, Proxy |
+| [GrokAiChat](https://github.com/vibheksoni/GrokAiChat) | Python library for interacting with Grok via X account authentication and conversation management. | Python, SDK |
+| [cloneme](https://github.com/vibheksoni/cloneme) | AI digital twin platform focused on memory, persona behavior, and multi-platform conversational workflows. | Python, AI Systems |
+| [unbuned](https://github.com/vibheksoni/unbuned) | Pure-Python reverse engineering tool that extracts JavaScript from Bun-compiled executables. | Python, Reverse Engineering |
+| [pypi-query-mcp-server](https://github.com/vibheksoni/pypi-query-mcp-server) | MCP server for PyPI metadata, dependency resolution, compatibility checks, and package intelligence. | Python, MCP, PyPI |
+| [rust-serve](https://github.com/vibheksoni/rust-serve) | Lightweight multi-threaded Rust HTTP server built from first principles to learn core web internals. | Rust, TCP, HTTP |
+| [stock-assist](https://github.com/vibheksoni/stock-assist) | AI-powered stock analysis SaaS platform with realtime data, subscriptions, and production deployment history. | Python, Flask, Finance |
+| [DevHive Studios](https://devhivestudios.com) | Freelance development agency platform with realtime project collaboration and client workflows. | Flask, PostgreSQL, Socket.IO |
 
 ---
 
