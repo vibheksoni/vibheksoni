@@ -4,13 +4,11 @@
 
 **Backend systems · AI infrastructure · security research**
 
-New York City · Python · FastAPI · MCP · protocol analysis
+New York City · **Open to backend / AI infrastructure opportunities**
 
 Also known as **vibheksoni** / **@ImVibhek**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-vibheksoni.com-181717?style=for-the-badge)](https://vibheksoni.com)
-[![FreeTheAI](https://img.shields.io/badge/FreeTheAI-181717?style=for-the-badge)](https://freetheai.xyz/)
-[![OpenDoors](https://img.shields.io/badge/OpenDoors-181717?style=for-the-badge)](https://opendoors.wtf/)
+[Portfolio](https://vibheksoni.com) · [LinkedIn](https://www.linkedin.com/in/vibheksoni/) · [Email](mailto:vibheksoni@engineer.com) · [X](https://x.com/ImVibhek)
 
 </div>
 
@@ -18,54 +16,77 @@ Also known as **vibheksoni** / **@ImVibhek**
 
 ## About
 
-I build backend systems and research-driven developer tooling at the intersection of **protocol analysis**, **automation**, and **security**.
+I build production APIs, AI infrastructure, retrieval systems, and research-driven developer tooling at the intersection of **protocol analysis**, **automation**, and **security**.
 
 > **Build loop:** observe real client behavior → reconstruct the protocol surface → ship production-grade tools and SDKs.
 
-## Current focus
-
-- **FreeTheAI** — an OpenAI-compatible AI API with streaming, tools, image endpoints, Messages, and Responses support.
-- **Developer infrastructure** — Python services, MCP servers, retrieval systems, protocol clients, and browser automation.
-- **Defensive research** — client behavior, protocol surfaces, reverse engineering, and security analysis.
+**Currently:** operating FreeTheAI, building Python developer infrastructure, and researching client behavior and defensive protocol analysis.
 
 ---
 
-## Selected work
+## Impact
 
-### Backend systems & AI infrastructure
+- **[stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp)** — open-source browser automation and CDP tooling with live GitHub traction.<br>
+  [![stars](https://img.shields.io/github/stars/vibheksoni/stealth-browser-mcp?style=flat-square&label=stars)](https://github.com/vibheksoni/stealth-browser-mcp/stargazers) [![forks](https://img.shields.io/github/forks/vibheksoni/stealth-browser-mcp?style=flat-square&label=forks)](https://github.com/vibheksoni/stealth-browser-mcp/network/members)
+- **[Stock Assist](https://github.com/vibheksoni/stock-assist)** — production SaaS history with **46 active users** documented in the project README.
+- **[FreeTheAI](https://freetheai.xyz/)** — live OpenAI-compatible API infrastructure for model access, streaming, tools, and images.
+- **[VerbalCodeAI](https://github.com/vibheksoni/VerbalCodeAi)** and **[unbuned](https://github.com/vibheksoni/unbuned)** — open-source developer and reverse-engineering tools with dynamic GitHub proof below.
 
-- **[FreeTheAI](https://freetheai.xyz/)** · [repo](https://github.com/Free-The-Ai/free-ai) — OpenAI-compatible AI API for model routing, streaming, tools, image endpoints, and usage tracking.<br>
-  `API gateway · auth · model routing`
-- **[UniClaudeProxy](https://github.com/vibheksoni/UniClaudeProxy)** — FastAPI proxy across Anthropic, OpenAI-compatible APIs, Gemini, and Ollama.<br>
-  `Python · FastAPI · LLM gateway`
-- **[VerbalCodeAI](https://github.com/vibheksoni/VerbalCodeAi)** — terminal assistant for indexing codebases and tracing where functions live or flows break.<br>
-  `Python · embeddings · CLI`
-- **[pypi-query-mcp-server](https://github.com/vibheksoni/pypi-query-mcp-server)** — MCP server for PyPI metadata, dependency resolution, and package intelligence.<br>
-  `Python · MCP · PyPI`
+---
 
-### Browser automation & protocol tooling
+## Flagship work
 
-- **[stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp)** — MCP browser automation built on nodriver and CDP for browser workflows and debugging.<br>
-  `Python · CDP · MCP`
-- **[GrokAiChat](https://github.com/vibheksoni/GrokAiChat)** — Python client library for Grok conversations and protocol-driven account flows.<br>
-  `Python · SDK · protocol analysis`
-- **[t3router](https://github.com/vibheksoni/t3router)** — Rust client library for t3.chat conversation handling and multi-model access.<br>
-  `Rust · SDK · AI APIs`
+### stealth-browser-mcp
 
-### Security research
+**MCP browser automation and CDP instrumentation for agent workflows.**
 
-- **[unbuned](https://github.com/vibheksoni/unbuned)** — pure-Python reverse engineering tool for extracting JavaScript from Bun executables.<br>
-  `Python · reverse engineering`
-- **[ferrox](https://github.com/vibheksoni/ferrox)** — Rust research into infostealer behavior, anti-analysis patterns, and defensive detection.<br>
-  `Rust · malware analysis · defense`
-- **[dma-spoofer](https://github.com/vibheksoni/dma-spoofer)** — Windows hardware identifier and DMA behavior research.<br>
-  `Rust · Windows · defensive research`
+[![stars](https://img.shields.io/github/stars/vibheksoni/stealth-browser-mcp?style=flat-square&label=stars)](https://github.com/vibheksoni/stealth-browser-mcp/stargazers) [![forks](https://img.shields.io/github/forks/vibheksoni/stealth-browser-mcp?style=flat-square&label=forks)](https://github.com/vibheksoni/stealth-browser-mcp/network/members)
+
+`Python · MCP · CDP · browser automation`
+
+### FreeTheAI
+
+**OpenAI-compatible AI infrastructure with 50+ models, streaming, tools, image endpoints, Messages, and Responses.**
+
+[Live system](https://freetheai.xyz/) · [public site repository](https://github.com/Free-The-Ai/free-ai)
+
+`API infrastructure · model routing · auth · usage tracking`
+
+### Stock Assist
+
+**Production AI financial-analysis SaaS built end-to-end and used by real users.**
+
+[![stars](https://img.shields.io/github/stars/vibheksoni/stock-assist?style=flat-square&label=stars)](https://github.com/vibheksoni/stock-assist/stargazers) [![forks](https://img.shields.io/github/forks/vibheksoni/stock-assist?style=flat-square&label=forks)](https://github.com/vibheksoni/stock-assist/network/members) · **46 active users**
+
+`Python · Flask · Redis · MySQL · WebSockets`
+
+### VerbalCodeAI
+
+**Local code intelligence for indexing, retrieval, and terminal-first codebase navigation.**
+
+[![stars](https://img.shields.io/github/stars/vibheksoni/VerbalCodeAi?style=flat-square&label=stars)](https://github.com/vibheksoni/VerbalCodeAi/stargazers) [![forks](https://img.shields.io/github/forks/vibheksoni/VerbalCodeAi?style=flat-square&label=forks)](https://github.com/vibheksoni/VerbalCodeAi/network/members)
+
+`Python · embeddings · retrieval · CLI`
+
+### unbuned
+
+**Zero-dependency Python reverse-engineering tool for recovering JavaScript from Bun executables.**
+
+[![stars](https://img.shields.io/github/stars/vibheksoni/unbuned?style=flat-square&label=stars)](https://github.com/vibheksoni/unbuned/stargazers) [![forks](https://img.shields.io/github/forks/vibheksoni/unbuned?style=flat-square&label=forks)](https://github.com/vibheksoni/unbuned/network/members)
+
+`Python · binary analysis · reverse engineering`
 
 <details>
-<summary><strong>More platform and research projects</strong></summary>
+<summary><strong>More engineering & research</strong></summary>
 
+- **[UniClaudeProxy](https://github.com/vibheksoni/UniClaudeProxy)** — FastAPI proxy across Anthropic, OpenAI-compatible APIs, Gemini, and Ollama.
+- **[pypi-query-mcp-server](https://github.com/vibheksoni/pypi-query-mcp-server)** — MCP server for PyPI metadata, dependency resolution, and package intelligence.
+- **[t3router](https://github.com/vibheksoni/t3router)** — Rust client library for t3.chat conversation handling and multi-model access.
+- **[quickcontext](https://github.com/vibheksoni/quickcontext)** — local code context engine combining Rust parsing/search with Python indexing and retrieval.
+- **[GrokAiChat](https://github.com/vibheksoni/GrokAiChat)** — Python client library for Grok conversations and protocol-driven account flows.
+- **[dma-spoofer](https://github.com/vibheksoni/dma-spoofer)** — Windows hardware identifier and DMA behavior research.
+- **[ferrox](https://github.com/vibheksoni/ferrox)** — Rust research into infostealer behavior, anti-analysis patterns, and defensive detection.
 - **[axiomtrade-rs](https://github.com/vibheksoni/axiomtrade-rs)** — Rust SDK for Axiom Trade account APIs, WebSockets, and DEX workflows.
-- **[stock-assist](https://github.com/vibheksoni/stock-assist)** — Python/Flask AI financial analysis platform with realtime data and production deployment history.
 - **[cloneme](https://github.com/vibheksoni/cloneme)** — AI digital twin platform focused on memory, persona behavior, and multi-platform workflows.
 - **[rust-serve](https://github.com/vibheksoni/rust-serve)** — lightweight multi-threaded Rust HTTP server built from first principles.
 - **[DevHive Studios](https://devhivestudios.com)** — freelance development platform with realtime collaboration and client workflows.
@@ -84,6 +105,14 @@ I build backend systems and research-driven developer tooling at the intersectio
 
 </div>
 
+`Python services · APIs · MCP · retrieval · protocol analysis`
+
+---
+
+## Education
+
+**B.S. Computer Science** · Western Governors University · expected Dec 2026
+
 ---
 
 ## Certifications
@@ -96,30 +125,22 @@ I build backend systems and research-driven developer tooling at the intersectio
 
 ---
 
-## GitHub activity
-
-<div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=vibheksoni&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=ffffff&text_color=888888&icon_color=ffffff" width="48%" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=vibheksoni&theme=dark&hide_border=true&background=000000" width="48%" />
-</div>
-
----
-
 ## Connect
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vibheksoni@engineer.com)&nbsp;&nbsp;[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vibheksoni)&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vibheksoni/)&nbsp;&nbsp;[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ImVibhek)<br>
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@vibheksoni)&nbsp;&nbsp;[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nyc.vibhek/)&nbsp;&nbsp;[![OpenDoors](https://img.shields.io/badge/OpenDoors-181717?style=for-the-badge)](https://opendoors.wtf/)&nbsp;&nbsp;[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/vibheksoni)
+[![Portfolio](https://img.shields.io/badge/Portfolio-181717?style=for-the-badge)](https://vibheksoni.com)&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vibheksoni/)<br>
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vibheksoni@engineer.com)&nbsp;&nbsp;[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/ImVibhek)
 
 </div>
 
+<details>
+<summary><strong>Other links</strong></summary>
+
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@vibheksoni)&nbsp;&nbsp;[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/nyc.vibhek/)&nbsp;&nbsp;[![OpenDoors](https://img.shields.io/badge/OpenDoors-181717?style=flat-square)](https://opendoors.wtf/)&nbsp;&nbsp;[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/vibheksoni)
+
+</details>
+
 ---
-
-## Open to
-
-- Backend systems and API architecture
-- AI infrastructure, retrieval, and developer tooling
-- Security research and protocol analysis
 
 **Best contact:** [vibheksoni@engineer.com](mailto:vibheksoni@engineer.com)
