@@ -4,7 +4,6 @@
 Produces theme-paired SVGs under assets/profile/:
   hero-{dark,light}.svg          identity hero with flow diagram
   proof-{dark,light}.svg         contained proof strip (live metrics)
-  card-<slug>-{dark,light}.svg   one card per flagship project (linkable)
   stack-{dark,light}.svg         system-oriented stack pipeline
 
 Runs locally or in GitHub Actions. Stdlib only.
@@ -56,85 +55,7 @@ THEMES = {
     },
 }
 
-PROJECTS = [
-    {
-        "slug": "stealth-browser-mcp",
-        "name": "stealth-browser-mcp",
-        "category": "BROWSER AUTOMATION",
-        "variant": "feature",
-        "desc": [
-            "Browser automation and CDP tooling that gives AI agents",
-            "control over navigation, network traffic, page state, and workflows.",
-        ],
-        "tech": "Python · MCP · CDP · browser automation",
-        "repo": "vibheksoni/stealth-browser-mcp",
-        "metric": "stars_forks",
-        "motif": ["CLIENT / BROWSER", "CDP", "AGENT"],
-        "url": "https://github.com/vibheksoni/stealth-browser-mcp",
-    },
-    {
-        "slug": "freetheai",
-        "name": "FreeTheAI",
-        "category": "AI INFRASTRUCTURE",
-        "variant": "feature",
-        "desc": [
-            "OpenAI-compatible AI infrastructure for model routing, streaming,",
-            "tool calls, images, Messages, Responses, authentication, and usage tracking.",
-        ],
-        "tech": "API infrastructure · model routing · auth · streaming",
-        "repo": None,
-        "metric": "models",
-        "motif": ["PROVIDERS", "ROUTER", "API"],
-        "url": "https://freetheai.xyz/",
-    },
-    {
-        "slug": "stock-assist",
-        "name": "Stock Assist",
-        "category": "PRODUCT · SAAS",
-        "variant": "half",
-        "desc": [
-            "AI financial analysis platform built end to end",
-            "with realtime market data, agent tooling,",
-            "subscriptions, payments, caching, and WebSockets.",
-        ],
-        "tech": "Python · Flask · Redis · MySQL · WebSockets",
-        "repo": "vibheksoni/stock-assist",
-        "metric": "users",
-        "motif": ["MARKET DATA", "ANALYSIS", "USER"],
-        "url": "https://github.com/vibheksoni/stock-assist",
-    },
-    {
-        "slug": "verbalcodeai",
-        "name": "VerbalCodeAI",
-        "category": "DEVELOPER TOOLING",
-        "variant": "half",
-        "desc": [
-            "Local code intelligence for indexing repositories,",
-            "searching code, retrieval, and terminal-first",
-            "codebase navigation.",
-        ],
-        "tech": "Python · embeddings · retrieval · CLI",
-        "repo": "vibheksoni/VerbalCodeAi",
-        "metric": "stars_forks",
-        "motif": ["FILES", "INDEX", "RETRIEVAL"],
-        "url": "https://github.com/vibheksoni/VerbalCodeAi",
-    },
-    {
-        "slug": "unbuned",
-        "name": "unbuned",
-        "category": "REVERSE ENGINEERING",
-        "variant": "feature",
-        "desc": [
-            "Zero-dependency reverse engineering tool for recovering JavaScript",
-            "from Bun-compiled executables.",
-        ],
-        "tech": "Python · binary analysis · reverse engineering",
-        "repo": "vibheksoni/unbuned",
-        "metric": "stars_forks",
-        "motif": ["EXECUTABLE", "ANALYSIS", "JAVASCRIPT"],
-        "url": "https://github.com/vibheksoni/unbuned",
-    },
-]
+
 
 
 STACK_FLOW = [
@@ -249,91 +170,6 @@ def render_proof(theme: str, metrics: dict) -> str:
     return "\n".join(lines) + "\n"
 
 
-def project_metric(project: dict, metrics: dict) -> tuple[str, str]:
-    kind = project["metric"]
-    if kind == "stars_forks":
-        repo = project["repo"]
-        data = {}
-        for key, candidate in (
-            ("stealth_browser_mcp", "vibheksoni/stealth-browser-mcp"),
-            ("verbalcodeai", "vibheksoni/VerbalCodeAi"),
-            ("unbuned", "vibheksoni/unbuned"),
-        ):
-            if candidate == repo:
-                data = metrics.get(key, {})
-        stars = data.get("stars", 0)
-        forks = data.get("forks", 0)
-        return format_stars(stars), f"stars · {forks} forks"
-    if kind == "users":
-        return str(metrics.get("stock_assist", {}).get("users", 46)), "users · production SaaS"
-    if kind == "models":
-        return str(metrics.get("freetheai", {}).get("models", "60+")), "active models"
-    return "", ""
-
-
-def render_motif(lines: list[str], c: dict, labels: list[str], variant: str) -> None:
-    if variant == "feature":
-        centers = [820, 970, 1120]
-        node_width = 112
-        node_y = 151
-        node_height = 30
-        font_size = 9.5
-        line_pairs = [(876, 914), (1026, 1064)]
-    else:
-        centers = [96, 290, 484]
-        node_width = 104
-        node_y = 203
-        node_height = 28
-        font_size = 9
-        line_pairs = [(148, 238), (342, 432)]
-
-    for index, (label, cx) in enumerate(zip(labels, centers)):
-        stroke = c["accent"] if index == 1 else c["hairline"]
-        lines.append(
-            f'  <rect x="{cx - node_width // 2}" y="{node_y}" width="{node_width}" '
-            f'height="{node_height}" rx="7" fill="{c["chip"]}" stroke="{stroke}" stroke-width="1.3"/>'
-        )
-        lines.append(
-            f'  <text x="{cx}" y="{node_y + 19}" text-anchor="middle" '
-            f'font-family="{FONT_MONO}" font-size="{font_size}" fill="{c["fg"]}">{esc(label)}</text>'
-        )
-
-    for x1, x2 in line_pairs:
-        y = node_y + node_height // 2
-        lines.append(f'  <line x1="{x1}" y1="{y}" x2="{x2 - 6}" y2="{y}" stroke="{c["hairline"]}" stroke-width="1.3"/>')
-        lines.append(f'  <polygon points="{x2 - 6},{y - 4} {x2},{y} {x2 - 6},{y + 4}" fill="{c["muted"]}"/>')
-
-
-def render_card(project: dict, theme: str, metrics: dict) -> str:
-    c = THEMES[theme]
-    value, label = project_metric(project, metrics)
-    variant = project["variant"]
-    width, height = (1200, 220) if variant == "feature" else (580, 250)
-    lines = svg_header(width, height, project["name"], " ".join(project["desc"]))
-    lines.append(f'  <rect x="0" y="0" width="{width}" height="{height}" rx="12" fill="{c["panel"]}" stroke="{c["hairline"]}"/>')
-
-    if variant == "feature":
-        lines.append(f'  <text x="36" y="36" font-family="{FONT_MONO}" font-size="11" letter-spacing="1.5" fill="{c["muted"]}">{esc(project["category"])}</text>')
-        if value:
-            lines.append(f'  <text x="1150" y="48" text-anchor="end" font-family="{FONT_SANS}" font-size="27" font-weight="700" fill="{c["accent"]}">{esc(value)}</text>')
-            lines.append(f'  <text x="1150" y="68" text-anchor="end" font-family="{FONT_MONO}" font-size="10" fill="{c["muted"]}">{esc(label)}</text>')
-        lines.append(f'  <text x="36" y="79" font-family="{FONT_SANS}" font-size="26" font-weight="700" fill="{c["fg"]}">{esc(project["name"])}</text>')
-        for y, line in zip((113, 138), project["desc"]):
-            lines.append(f'  <text x="36" y="{y}" font-family="{FONT_SANS}" font-size="16" fill="{c["muted"]}">{esc(line)}</text>')
-        lines.append(f'  <text x="36" y="178" font-family="{FONT_MONO}" font-size="11.5" fill="{c["muted"]}">{esc(project["tech"])}</text>')
-    else:
-        lines.append(f'  <text x="24" y="32" font-family="{FONT_MONO}" font-size="10" letter-spacing="1.3" fill="{c["muted"]}">{esc(project["category"])}</text>')
-        if value:
-            lines.append(f'  <text x="556" y="37" text-anchor="end" font-family="{FONT_SANS}" font-size="23" font-weight="700" fill="{c["accent"]}">{esc(value)}</text>')
-            lines.append(f'  <text x="556" y="55" text-anchor="end" font-family="{FONT_MONO}" font-size="9" fill="{c["muted"]}">{esc(label)}</text>')
-        lines.append(f'  <text x="24" y="79" font-family="{FONT_SANS}" font-size="21" font-weight="700" fill="{c["fg"]}">{esc(project["name"])}</text>')
-        for y, line in zip((113, 137, 161), project["desc"]):
-            lines.append(f'  <text x="24" y="{y}" font-family="{FONT_SANS}" font-size="13.5" fill="{c["muted"]}">{esc(line)}</text>')
-        lines.append(f'  <text x="24" y="190" font-family="{FONT_MONO}" font-size="10" fill="{c["muted"]}">{esc(project["tech"])}</text>')
-
-    render_motif(lines, c, project["motif"], variant)
-    lines.extend(svg_footer())
-    return "\n".join(lines) + "\n"
 
 
 
@@ -405,19 +241,9 @@ def main() -> int:
 
     ASSETS.mkdir(parents=True, exist_ok=True)
     for theme in ("dark", "light"):
-        stale = ASSETS / f"card-more-work-{theme}.svg"
-        if stale.exists():
-            stale.unlink()
-            print(f"removed {stale.relative_to(ROOT)}")
-
-    for theme in ("dark", "light"):
         (ASSETS / f"hero-{theme}.svg").write_text(render_hero(theme), encoding="utf-8")
         (ASSETS / f"proof-{theme}.svg").write_text(render_proof(theme, metrics), encoding="utf-8")
         (ASSETS / f"stack-{theme}.svg").write_text(render_stack(theme), encoding="utf-8")
-        for project in PROJECTS:
-            out = ASSETS / f"card-{project['slug']}-{theme}.svg"
-            out.write_text(render_card(project, theme, metrics), encoding="utf-8")
-            print(f"wrote {out.relative_to(ROOT)}")
 
     METRICS_FILE.write_text(json.dumps(metrics, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {METRICS_FILE.relative_to(ROOT)}")

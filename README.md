@@ -22,48 +22,31 @@ I build backend systems and research-driven developer tooling at the intersectio
 
 ---
 
-## Flagship work
+## Selected work
 
-<a href="https://github.com/vibheksoni/stealth-browser-mcp">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-stealth-browser-mcp-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-stealth-browser-mcp-light.svg">
-  <img src="assets/profile/card-stealth-browser-mcp-dark.svg" alt="stealth-browser-mcp: browser automation and CDP tooling for AI agents.">
-</picture>
-</a>
+### stealth-browser-mcp
 
-<a href="https://freetheai.xyz/">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-freetheai-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-freetheai-light.svg">
-  <img src="assets/profile/card-freetheai-dark.svg" alt="FreeTheAI: OpenAI-compatible AI infrastructure for routing, streaming, tools, images, authentication, and usage tracking.">
-</picture>
-</a>
+[GitHub repository](https://github.com/vibheksoni/stealth-browser-mcp) · `1.6k stars · 242 forks`
 
-<p align="center">
-<a href="https://github.com/vibheksoni/stock-assist">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-stock-assist-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-stock-assist-light.svg">
-  <img src="assets/profile/card-stock-assist-dark.svg" width="49%" alt="Stock Assist: AI financial analysis platform with realtime market data, subscriptions, payments, caching, and WebSockets.">
-</picture>
-</a>
-<a href="https://github.com/vibheksoni/VerbalCodeAi">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-verbalcodeai-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-verbalcodeai-light.svg">
-  <img src="assets/profile/card-verbalcodeai-dark.svg" width="49%" alt="VerbalCodeAI: local code intelligence for indexing repositories, search, retrieval, and terminal navigation.">
-</picture>
-</a>
-</p>
+Browser automation and CDP tooling that gives AI agents control over navigation, network traffic, page state, and browser workflows.
 
-<a href="https://github.com/vibheksoni/unbuned">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-unbuned-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-unbuned-light.svg">
-  <img src="assets/profile/card-unbuned-dark.svg" alt="unbuned: zero-dependency reverse engineering tool for recovering JavaScript from Bun-compiled executables.">
-</picture>
-</a>
+`Python · MCP · CDP · browser automation`
+
+### FreeTheAI
+
+[Project site](https://freetheai.xyz/) · `60+ active models`
+
+OpenAI-compatible AI infrastructure for model routing, streaming, tool calls, images, Messages, Responses, authentication, and usage tracking.
+
+`API infrastructure · model routing · auth · streaming`
+
+### More selected work
+
+| Project | What I built | Stack and proof |
+| --- | --- | --- |
+| [Stock Assist](https://github.com/vibheksoni/stock-assist) | AI financial analysis platform with realtime market data, subscriptions, payments, caching, and WebSockets. | `Python · Flask · Redis · MySQL · WebSockets` · `46 active users` |
+| [VerbalCodeAI](https://github.com/vibheksoni/VerbalCodeAi) | Local code intelligence for indexing repositories, search, retrieval, and terminal-first codebase navigation. | `Python · embeddings · retrieval · CLI` · `59 stars · 9 forks` |
+| [unbuned](https://github.com/vibheksoni/unbuned) | Zero-dependency reverse engineering tool for recovering JavaScript from Bun-compiled executables. | `Python · binary analysis · reverse engineering` · `52 stars · 6 forks` |
 
 <details>
 <summary><strong>More engineering and research</strong></summary>
