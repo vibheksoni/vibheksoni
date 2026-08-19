@@ -7,15 +7,26 @@
   <rect x="40" y="164" width="360" height="34" rx="17" fill="#eaeef2" stroke="#d0d7de"/>
   <circle cx="62" cy="181" r="5" fill="#1a7f37"/>
   <text x="78" y="186" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#1f2328">Open to backend / AI infrastructure</text>
-  <line x1="640" y1="100" x2="780" y2="52" stroke="#d0d7de" stroke-width="1.5"/>
-  <line x1="640" y1="100" x2="800" y2="148" stroke="#d0d7de" stroke-width="1.5"/>
-  <line x1="640" y1="100" x2="660" y2="178" stroke="#d0d7de" stroke-width="1.5"/>
-  <rect x="596" y="78" width="88" height="44" rx="10" fill="#f6f8fa" stroke="#0969da" stroke-width="1.5"/>
-  <text x="640" y="104" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#0969da">ROUTER</text>
-  <rect x="734" y="34" width="92" height="36" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
-  <text x="780" y="56" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#57606a">API</text>
-  <rect x="754" y="130" width="92" height="36" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
-  <text x="800" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#57606a">AGENTS</text>
-  <rect x="614" y="160" width="92" height="36" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
-  <text x="660" y="182" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#57606a">DATA</text>
+  <line x1="586" y1="120" x2="600" y2="120" stroke="#d0d7de" stroke-width="1.5"/>
+  <polygon points="600,116 606,120 600,124" fill="#57606a"/>
+  <line x1="658" y1="120" x2="680" y2="120" stroke="#d0d7de" stroke-width="1.5"/>
+  <polygon points="680,116 686,120 680,124" fill="#57606a"/>
+  <line x1="738" y1="58" x2="783" y2="58" stroke="#d0d7de" stroke-width="1.5"/>
+  <polygon points="783,54 789,58 783,62" fill="#57606a"/>
+  <line x1="738" y1="120" x2="783" y2="120" stroke="#d0d7de" stroke-width="1.5"/>
+  <polygon points="783,116 789,120 783,124" fill="#57606a"/>
+  <line x1="738" y1="182" x2="783" y2="182" stroke="#d0d7de" stroke-width="1.5"/>
+  <polygon points="783,178 789,182 783,186" fill="#57606a"/>
+  <rect x="533" y="106" width="54" height="28" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="560" y="124" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#1f2328">CLIENT</text>
+  <rect x="605" y="106" width="54" height="28" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="632" y="124" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#1f2328">PROTOCOL</text>
+  <rect x="685" y="106" width="54" height="28" rx="8" fill="#0969da" stroke="#0969da" stroke-width="1.5"/>
+  <text x="712" y="124" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#1f2328">ROUTER</text>
+  <rect x="788" y="44" width="54" height="28" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="815" y="62" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#1f2328">API</text>
+  <rect x="788" y="106" width="54" height="28" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="815" y="124" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#1f2328">AGENTS</text>
+  <rect x="788" y="168" width="54" height="28" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="815" y="186" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#1f2328">DATA</text>
 </svg>

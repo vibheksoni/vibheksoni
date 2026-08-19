@@ -1,11 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 88" width="900" height="88" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" width="440" height="200" role="img" aria-labelledby="t d">
   <title id="t">VerbalCodeAI</title>
-  <desc id="d">Local code intelligence for indexing, retrieval, and terminal-first codebase navigation.</desc>
-  <rect x="0" y="0" width="900" height="88" rx="10" fill="#161b22" stroke="#30363d"/>
-  <text x="24" y="24" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.2" fill="#8b949e">DEVELOPER TOOLING</text>
-  <text x="24" y="46" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16.5" font-weight="700" fill="#e6edf3">VerbalCodeAI</text>
-  <text x="24" y="66" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#8b949e">Local code intelligence for indexing, retrieval, and terminal-first codebase navigation.</text>
-  <text x="24" y="82" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#8b949e">Python · embeddings · retrieval · CLI</text>
-  <text x="876" y="46" text-anchor="end" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#58a6ff">59</text>
-  <text x="876" y="64" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#8b949e">stars · 9 forks</text>
+  <desc id="d">Local code intelligence for indexing and terminal search.</desc>
+  <rect x="0" y="0" width="440" height="200" rx="12" fill="#161b22" stroke="#30363d"/>
+  <text x="18" y="26" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9" letter-spacing="1.2" fill="#8b949e">DEVELOPER TOOLING</text>
+  <text x="422" y="28" text-anchor="end" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="700" fill="#58a6ff">59</text>
+  <text x="422" y="44" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#8b949e">stars · 9 forks</text>
+  <text x="18" y="66" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="700" fill="#e6edf3">VerbalCodeAI</text>
+  <text x="18" y="86" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#8b949e">Local code intelligence for</text>
+  <text x="18" y="101" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#8b949e">indexing and terminal search.</text>
+  <text x="18" y="120" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9.5" fill="#8b949e">Python · embeddings · retrieval · CLI</text>
+  <rect x="72" y="150" width="48" height="24" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1.2"/>
+  <text x="96" y="166" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#e6edf3">files</text>
+  <rect x="196" y="150" width="48" height="24" rx="6" fill="#21262d" stroke="#58a6ff" stroke-width="1.2"/>
+  <text x="220" y="166" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#e6edf3">index</text>
+  <rect x="320" y="150" width="48" height="24" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1.2"/>
+  <text x="344" y="166" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="8.5" fill="#e6edf3">retrieval</text>
+  <line x1="120" y1="162" x2="172" y2="162" stroke="#30363d" stroke-width="1.2"/>
+  <polygon points="172,159 176,162 172,165" fill="#8b949e"/>
+  <line x1="244" y1="162" x2="296" y2="162" stroke="#30363d" stroke-width="1.2"/>
+  <polygon points="296,159 300,162 296,165" fill="#8b949e"/>
 </svg>

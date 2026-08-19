@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 104" width="900" height="104" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="900" height="100" role="img" aria-labelledby="t d">
   <title id="t">Open source traction, production users, and AI infrastructure</title>
-  <desc id="d">stealth-browser-mcp stars and forks, Stock Assist production users, and FreeTheAI models.</desc>
-  <text x="150" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#57606a">OPEN SOURCE</text>
-  <text x="150" y="62" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="700" fill="#1f2328">1.6k</text>
-  <text x="150" y="84" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#57606a">stars · 242 forks</text>
-  <text x="150" y="99" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#0969da">stealth-browser-mcp</text>
-  <text x="450" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#57606a">PRODUCTION</text>
-  <text x="450" y="62" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="700" fill="#1f2328">46</text>
-  <text x="450" y="84" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#57606a">active users</text>
-  <text x="450" y="99" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#0969da">Stock Assist</text>
-  <text x="750" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="1.5" fill="#57606a">AI INFRA</text>
-  <text x="750" y="62" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="700" fill="#1f2328">50+</text>
-  <text x="750" y="84" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#57606a">models</text>
-  <text x="750" y="99" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#0969da">FreeTheAI</text>
-  <line x1="300" y1="14" x2="300" y2="90" stroke="#d0d7de" stroke-width="1"/>
-  <line x1="600" y1="14" x2="600" y2="90" stroke="#d0d7de" stroke-width="1"/>
+  <desc id="d">stealth-browser-mcp stars and forks, Stock Assist production users, and FreeTheAI active models.</desc>
+  <rect x="0" y="0" width="900" height="100" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="150" y="28" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9" letter-spacing="1.5" fill="#57606a">OPEN SOURCE</text>
+  <text x="150" y="60" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="700" fill="#1f2328">1.6k</text>
+  <text x="150" y="78" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#57606a">stars · 242 forks</text>
+  <text x="150" y="93" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#0969da">stealth-browser-mcp</text>
+  <text x="450" y="28" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9" letter-spacing="1.5" fill="#57606a">PRODUCTION</text>
+  <text x="450" y="60" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="700" fill="#1f2328">46</text>
+  <text x="450" y="78" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#57606a">active users</text>
+  <text x="450" y="93" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#0969da">Stock Assist</text>
+  <text x="750" y="28" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="9" letter-spacing="1.5" fill="#57606a">AI INFRA</text>
+  <text x="750" y="60" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24" font-weight="700" fill="#1f2328">60+</text>
+  <text x="750" y="78" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10" fill="#57606a">active models</text>
+  <text x="750" y="93" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" fill="#0969da">FreeTheAI</text>
+  <line x1="300" y1="14" x2="300" y2="86" stroke="#d0d7de" stroke-width="1"/>
+  <line x1="600" y1="14" x2="600" y2="86" stroke="#d0d7de" stroke-width="1"/>
 </svg>
