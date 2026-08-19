@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 88" width="900" height="88" role="img" aria-labelledby="t d">
+  <title id="t">Stock Assist</title>
+  <desc id="d">Production AI financial-analysis SaaS built end to end with realtime market data.</desc>
+  <rect x="0" y="0" width="900" height="88" rx="10" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="24" y="24" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.2" fill="#57606a">PRODUCT · SAAS</text>
+  <text x="24" y="46" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16.5" font-weight="700" fill="#1f2328">Stock Assist</text>
+  <text x="24" y="66" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#57606a">Production AI financial-analysis SaaS built end to end with realtime market data.</text>
+  <text x="24" y="82" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" fill="#57606a">Python · Flask · Redis · MySQL · WebSockets</text>
+  <text x="876" y="46" text-anchor="end" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#0969da">46</text>
+  <text x="876" y="64" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#57606a">users · production SaaS</text>
+</svg>

@@ -1,0 +1,43 @@
+name: Update profile metrics
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile-metrics.yml"
+  schedule:
+    # Daily at 17:23 UTC; nonzero minute avoids peak-hour contention.
+    - cron: "23 17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Generate profile SVGs
+        run: python3 scripts/generate_profile.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile/
+          if git diff --cached --quiet; then
+            echo "Profile assets unchanged."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile metrics"
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"
