@@ -6,9 +6,9 @@
 
 [Portfolio](https://vibheksoni.com) · [LinkedIn](https://www.linkedin.com/in/vibheksoni/) · [Email](mailto:vibheksoni@engineer.com) · [X](https://x.com/ImVibhek)
 
-I build production APIs, AI infrastructure, retrieval systems, and research-driven developer tooling at the intersection of protocol analysis, automation, and security.
+I build backend systems and research-driven developer tooling at the intersection of protocol analysis, automation, and security. Current work spans browser protocols, AI gateways, and local code intelligence.
 
-> **Build loop:** observe real client behavior, reconstruct the protocol surface, ship production-grade tools and SDKs.
+> **Build loop:** observe real client behavior, reconstruct the protocol surface, then ship production-grade tools and SDKs.
 
 ---
 
@@ -24,58 +24,48 @@ I build production APIs, AI infrastructure, retrieval systems, and research-driv
 
 ## Flagship work
 
-<p align="center">
 <a href="https://github.com/vibheksoni/stealth-browser-mcp">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-stealth-browser-mcp-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-stealth-browser-mcp-light.svg">
-  <img src="assets/profile/card-stealth-browser-mcp-dark.svg" width="49%" alt="stealth-browser-mcp: MCP browser automation and CDP instrumentation for agent workflows.">
+  <img src="assets/profile/card-stealth-browser-mcp-dark.svg" alt="stealth-browser-mcp: browser automation and CDP tooling for AI agents.">
 </picture>
 </a>
+
 <a href="https://freetheai.xyz/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-freetheai-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-freetheai-light.svg">
-  <img src="assets/profile/card-freetheai-dark.svg" width="49%" alt="FreeTheAI: OpenAI-compatible AI API with 60+ active models.">
+  <img src="assets/profile/card-freetheai-dark.svg" alt="FreeTheAI: OpenAI-compatible AI infrastructure for routing, streaming, tools, images, authentication, and usage tracking.">
 </picture>
 </a>
-</p>
 
 <p align="center">
 <a href="https://github.com/vibheksoni/stock-assist">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-stock-assist-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-stock-assist-light.svg">
-  <img src="assets/profile/card-stock-assist-dark.svg" width="49%" alt="Stock Assist: production AI financial analysis SaaS with realtime market data.">
+  <img src="assets/profile/card-stock-assist-dark.svg" width="49%" alt="Stock Assist: AI financial analysis platform with realtime market data, subscriptions, payments, caching, and WebSockets.">
 </picture>
 </a>
 <a href="https://github.com/vibheksoni/VerbalCodeAi">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-verbalcodeai-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-verbalcodeai-light.svg">
-  <img src="assets/profile/card-verbalcodeai-dark.svg" width="49%" alt="VerbalCodeAI: local code intelligence for indexing and terminal search.">
+  <img src="assets/profile/card-verbalcodeai-dark.svg" width="49%" alt="VerbalCodeAI: local code intelligence for indexing repositories, search, retrieval, and terminal navigation.">
 </picture>
 </a>
 </p>
 
-<p align="center">
 <a href="https://github.com/vibheksoni/unbuned">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-unbuned-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-unbuned-light.svg">
-  <img src="assets/profile/card-unbuned-dark.svg" width="49%" alt="unbuned: zero-dependency tool for recovering JavaScript from Bun executables.">
+  <img src="assets/profile/card-unbuned-dark.svg" alt="unbuned: zero-dependency reverse engineering tool for recovering JavaScript from Bun-compiled executables.">
 </picture>
 </a>
-<a href="https://github.com/vibheksoni?tab=repositories">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/card-more-work-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile/card-more-work-light.svg">
-  <img src="assets/profile/card-more-work-dark.svg" width="49%" alt="More engineering and research: UniClaudeProxy, t3router, youtube-ai, and more.">
-</picture>
-</a>
-</p>
 
-<details id="more-engineering-and-research">
+<details>
 <summary><strong>More engineering and research</strong></summary>
 
 **Developer infrastructure**
