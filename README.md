@@ -78,6 +78,8 @@ I focus on hard engineering problems where reverse engineering, distributed data
 
 </div>
 
+---
+
 ### Certifications
 
 <div align="center">
