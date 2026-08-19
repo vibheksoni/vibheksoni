@@ -78,6 +78,14 @@ I focus on hard engineering problems where reverse engineering, distributed data
 
 </div>
 
+### Certifications
+
+| Certification | Logo | Issued | Expires |
+|---------------|------|--------|---------|
+| ITIL® 4 Foundation | ![PeopleCert](https://img.shields.io/badge/PeopleCert-000000?style=flat-square) | Aug 2026 | Aug 2029 |
+| Linux Essentials | ![LPI](https://img.shields.io/badge/LPI-000000?style=flat-square&logo=linux&logoColor=white) | Jul 2026 | — |
+| Introduction to Cybersecurity | ![Cisco](https://img.shields.io/badge/Cisco-000000?style=flat-square&logo=cisco&logoColor=white) | Mar 2021 | — |
+
 ---
 
 ### Stats
