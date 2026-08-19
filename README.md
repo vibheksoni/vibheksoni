@@ -82,23 +82,25 @@ I focus on hard engineering problems where reverse engineering, distributed data
 
 <div align="center">
 
-**ITIL® 4 Foundation**
-
-<img src="assets/certs/peoplecert.jpg" width="90" alt="PeopleCert logo">
-
-Aug 2026 – Aug 2029
-
-**Linux Essentials**
-
-<img src="assets/certs/lpi.jpg" width="90" alt="Linux Professional Institute logo">
-
-Issued Jul 2026
-
-**Introduction to Cybersecurity**
-
-<img src="assets/certs/cisco.jpg" width="90" alt="Cisco logo">
-
-Issued Mar 2021
+<table style="border-collapse: collapse; border: none; background: transparent;">
+  <tr>
+    <td style="border: none; padding: 0 2rem; text-align: center; vertical-align: top;">
+      <strong>ITIL® 4 Foundation</strong><br>
+      <img src="assets/certs/peoplecert.jpg" width="90" alt="PeopleCert logo"><br>
+      Aug 2026 – Aug 2029
+    </td>
+    <td style="border-left: 1px solid #666; padding: 0 2rem; text-align: center; vertical-align: top;">
+      <strong>Linux Essentials</strong><br>
+      <img src="assets/certs/lpi.jpg" width="90" alt="Linux Professional Institute logo"><br>
+      Issued Jul 2026
+    </td>
+    <td style="border-left: 1px solid #666; padding: 0 2rem; text-align: center; vertical-align: top;">
+      <strong>Introduction to Cybersecurity</strong><br>
+      <img src="assets/certs/cisco.jpg" width="90" alt="Cisco logo"><br>
+      Issued Mar 2021
+    </td>
+  </tr>
+</table>
 
 </div>
 
