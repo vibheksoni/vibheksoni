@@ -84,10 +84,23 @@ I focus on hard engineering problems where reverse engineering, distributed data
 
 <div align="center">
 
-| ITIL® 4 Foundation | Linux Essentials | Introduction to Cybersecurity |
-|:--------------------:|:------------------:|:-------------------------------:|
-| <img src="assets/certs/peoplecert.jpg" width="90" alt="PeopleCert logo"> | <img src="assets/certs/lpi.jpg" width="90" alt="Linux Professional Institute logo"> | <img src="assets/certs/cisco.jpg" width="90" alt="Cisco logo"> |
-| Aug 2026 – Aug 2029 | Issued Jul 2026 | Issued Mar 2021 |
+**ITIL® 4 Foundation**
+
+<img src="assets/certs/peoplecert.jpg" width="90" alt="PeopleCert logo">
+
+Aug 2026 – Aug 2029
+
+**Linux Essentials**
+
+<img src="assets/certs/lpi.jpg" width="90" alt="Linux Professional Institute logo">
+
+Issued Jul 2026
+
+**Introduction to Cybersecurity**
+
+<img src="assets/certs/cisco.jpg" width="90" alt="Cisco logo">
+
+Issued Mar 2021
 
 </div>
 
