@@ -18,7 +18,7 @@ Current work spans browser protocols, AI gateways, and local code intelligence.
 
 | Open source | Production | AI infrastructure |
 | --- | --- | --- |
-| **1.6k stars**<br>242 forks on [stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) | **46 active users**<br>[Stock Assist](https://github.com/vibheksoni/stock-assist) | **60+ active models**<br>[FreeTheAI](https://freetheai.xyz/) |
+| **1.6k stars**<br>242 forks on [stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) | **46 active users**<br>[Stock Assist](https://github.com/vibheksoni/stock-assist) | **50+ active models**<br>[FreeTheAI](https://freetheai.org/) |
 
 ## Selected work
 
@@ -28,11 +28,13 @@ MCP browser automation and CDP tooling for navigation, network traffic, page sta
 
 `Python · MCP · CDP · browser automation` · `1.6k stars · 242 forks`
 
-### [FreeTheAI](https://freetheai.xyz/)
+### [FreeTheAI](https://freetheai.org/)
 
 OpenAI-compatible AI infrastructure for model routing, streaming, tool calls, images, Messages, Responses, authentication, and usage tracking.
 
-`API infrastructure · model routing · auth · streaming` · `60+ active models`
+[Site](https://freetheai.org/) · [Docs](https://freetheai.org/docs) · [Models](https://freetheai.org/models) · [Status](https://freetheai.org/status) · API base: `https://api.freetheai.org/v1`
+
+`API infrastructure · model routing · auth · streaming` · `50+ active models`
 
 ### More selected work
 
