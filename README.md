@@ -8,9 +8,9 @@
 
 ## Selected work
 
-### FreeTheAI · OpenAI-compatible API gateway in Go
+### FreeTheAI · free AI API and model marketplace, built in Go
 
-**183B+ tokens and 6.6M+ requests served**, per the [public stats page](https://freetheai.org/stats). I built and run the gateway: API keys and accounts, wallet and credits, rate limits, abuse controls, usage metering, and model routing. [freetheai.org](https://freetheai.org/) · [Docs](https://freetheai.org/docs) · [Status](https://freetheai.org/status)
+**183B+ tokens and 6.6M+ requests served**, per the [public stats page](https://freetheai.org/stats). One OpenAI-compatible API with free models, paid plans for higher usage, and a marketplace where sellers list models at their own prices. I built and run the gateway: API keys and accounts, wallet and credits, rate limits, abuse controls, usage metering, and model routing. [freetheai.org](https://freetheai.org/) · [Docs](https://freetheai.org/docs) · [Status](https://freetheai.org/status)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/freetheai-dark.png">
