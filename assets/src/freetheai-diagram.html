@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=block" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fdfdf9; --ink: #191918; --muted: #4a4945; --quiet: #6b6963;
+    --line: #252523; --soft: #d4d2cb; --fill: #f4f3ee; --mark: #fff2a8;
+  }
+  [data-theme="dark"] {
+    --bg: #0d1117; --ink: #e6edf3; --muted: #b1bac4; --quiet: #8b949e;
+    --line: #8b949e; --soft: #30363d; --fill: #161b22; --mark: #3b2f0b;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { background: transparent; }
+  .wrap {
+    width: 830px; padding: 18px 20px 14px; background: var(--bg); color: var(--ink);
+    border: 1px solid var(--soft); font-family: "Inter", Arial, sans-serif;
+  }
+  .title { display: flex; justify-content: space-between; align-items: baseline;
+    font: 600 14.0px/1.3 "IBM Plex Mono", Consolas, monospace; color: var(--quiet); }
+  .title b { color: var(--ink); }
+  .flow { display: grid; grid-template-columns: 150px 22px 1fr 22px 170px 22px 148px; align-items: stretch; margin-top: 14px; }
+  .box { border: 1.5px solid var(--line); background: var(--bg); padding: 10px 11px; }
+  .box.main { background: var(--fill); }
+  .box h3 { font: 700 14.6px/1.25 "IBM Plex Mono", Consolas, monospace; }
+  .box .host { margin-top: 2px; font: 500 12.3px/1.3 "IBM Plex Mono", Consolas, monospace; color: var(--quiet); }
+  .box ul { list-style: none; padding: 0; margin-top: 8px; }
+  .box li { font: 500 14.0px/1.55 "Inter", Arial, sans-serif; color: var(--muted); }
+  .box li::before { content: "– "; color: var(--quiet); }
+  .arrow { position: relative; }
+  .arrow::before { content: ""; position: absolute; left: 3px; right: 6px; top: 50%; border-top: 1.5px solid var(--line); }
+  .arrow::after { content: ""; position: absolute; right: 2px; top: calc(50% - 4px);
+    border-left: 7px solid var(--line); border-top: 4.5px solid transparent; border-bottom: 4.5px solid transparent; }
+  .stores { display: grid; grid-template-columns: 150px 22px 1fr 22px 170px 22px 148px; margin-top: 0; }
+  .drop { grid-column: 3 / 6; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; position: relative; padding-top: 22px; }
+  .drop::before { content: ""; position: absolute; top: 0; left: 50%; height: 22px; border-left: 1.5px dashed var(--line); }
+  .store { border: 1.5px dashed var(--line); padding: 8px 10px; }
+  .store h4 { font: 700 13.4px/1.25 "IBM Plex Mono", Consolas, monospace; }
+  .store p { margin-top: 3px; font: 500 13.4px/1.45 "Inter", Arial, sans-serif; color: var(--muted); }
+  .foot { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--soft);
+    display: flex; justify-content: space-between; font: 500 12.9px/1.4 "IBM Plex Mono", Consolas, monospace; color: var(--quiet); }
+  .foot b { color: var(--ink); font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="wrap" id="card">
+  <div class="title"><span><b>FreeTheAI</b> &middot; request path</span><span>Go &middot; PostgreSQL &middot; Redis</span></div>
+
+  <div class="flow">
+    <div class="box">
+      <h3>clients</h3>
+      <ul><li>OpenAI SDKs</li><li>Claude Code</li><li>agents, curl</li></ul>
+    </div>
+    <div class="arrow"></div>
+    <div class="box main">
+      <h3>gateway</h3>
+      <div class="host">api.freetheai.org/v1</div>
+      <ul><li>API keys and accounts</li><li>wallet and credits</li><li>rate limits, abuse controls</li><li>usage metering</li></ul>
+    </div>
+    <div class="arrow"></div>
+    <div class="box main">
+      <h3>router</h3>
+      <ul><li>resolve model</li><li>pick upstream by price or speed</li><li>stream tokens back</li></ul>
+    </div>
+    <div class="arrow"></div>
+    <div class="box">
+      <h3>upstreams</h3>
+      <ul><li>free model pool</li><li>marketplace sellers</li></ul>
+    </div>
+  </div>
+
+  <div class="stores">
+    <div class="drop">
+      <div class="store"><h4>PostgreSQL</h4><p>accounts, keys, usage ledger</p></div>
+      <div class="store"><h4>Redis</h4><p>rate limits, shared request state</p></div>
+    </div>
+  </div>
+
+  <div class="foot"><span>OpenAI-compatible: chat, Responses, Messages, tools, images, streaming</span><span><b>{{tokens}}</b> tokens &middot; <b>{{requests}}</b> requests</span></div>
+</div>
+</body>
+</html>
