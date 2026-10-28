@@ -1,72 +1,69 @@
+<img src="assets/vibhek-soni.jpg" align="right" width="190" alt="Photo of Vibhek Soni">
+
 # Vibhek Soni
 
-**Backend engineer in New York.** I build API infrastructure and security tools, usually by taking a protocol apart first and building on what I learn.
+**Backend engineer in New York.** I build API infrastructure and security tools. Most of them start with me taking a protocol apart to see how it really works.
 
-**Open to** backend, AI infrastructure, and security roles · [vibheksoni@engineer.com](mailto:vibheksoni@engineer.com) · [Portfolio](https://vibheksoni.com) · [LinkedIn](https://www.linkedin.com/in/vibheksoni/)
+I'm open to backend, AI infrastructure and security roles.
 
-**Now:** building FreeTheAI's marketplace: one wallet, many model providers, routing by price or speed.
+[vibheksoni.com](https://vibheksoni.com/) · [vibheksoni@engineer.com](mailto:vibheksoni@engineer.com) · [LinkedIn](https://www.linkedin.com/in/vibheksoni/) · [X](https://x.com/ImVibhek)
 
-## Selected work
+<br clear="right">
 
-### FreeTheAI · free AI API and model marketplace, built in Go
+## FreeTheAI
 
-**183B+ tokens and 6.6M+ requests served**, per the [public stats page](https://freetheai.org/stats). One OpenAI-compatible API with free models, paid plans for higher usage, and a marketplace where sellers list models at their own prices. I built and run the gateway: API keys and accounts, wallet and credits, rate limits, abuse controls, usage metering, and model routing. [freetheai.org](https://freetheai.org/) · [Docs](https://freetheai.org/docs) · [Status](https://freetheai.org/status)
+A free AI API and model marketplace behind one OpenAI-compatible endpoint. Free models cover most people and paid plans cover heavier use. Sellers can list their own models at their own prices.
+
+It has served **over 219 billion tokens across 7.6 million requests** ([public stats](https://freetheai.org/stats)). I built and run the Go gateway that handles API keys and accounts, the wallet and credits, rate limits, abuse controls, usage metering and routing by price or speed.
+
+[freetheai.org](https://freetheai.org/) · [Docs](https://freetheai.org/docs) · [Status](https://freetheai.org/status)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/freetheai-dark.png">
-  <img src="assets/freetheai-light.png" width="830" alt="FreeTheAI request path: clients such as OpenAI SDKs, Claude Code, and curl call the Go gateway at api.freetheai.org/v1, which handles API keys, wallet and credits, rate limits, abuse controls, and usage metering. A router resolves the model, picks an upstream by price or speed, and streams tokens back from a free model pool or marketplace sellers. PostgreSQL stores accounts, keys, and the usage ledger; Redis holds rate limits and shared request state.">
+  <img src="assets/freetheai-light.png" width="830" alt="FreeTheAI request path: clients such as OpenAI SDKs, Claude Code and curl call the Go gateway at api.freetheai.org/v1, which handles API keys, wallet and credits, rate limits, abuse controls and usage metering. A router resolves the model, picks an upstream by price or speed and streams tokens back from a free model pool or marketplace sellers. PostgreSQL stores accounts, keys and the usage ledger. Redis holds rate limits and shared request state.">
 </picture>
 
-### stealth-browser-mcp · browser automation for AI agents
+## Other work
 
-**2.1k+ stars, 296 forks.** An MCP server that lets agents drive a real Chrome browser over the DevTools Protocol: navigation, network hooks, DOM extraction, and UI cloning. Python, FastMCP. [Repo](https://github.com/vibheksoni/stealth-browser-mcp)
-
-### UniClaudeProxy · one Claude Code client, any model backend
-
-FastAPI proxy that translates the Anthropic API to OpenAI, Gemini, DeepSeek, and Ollama, with streaming and tool calling. [Repo](https://github.com/vibheksoni/UniClaudeProxy)
-
-### unbuned · JavaScript recovery from Bun executables
-
-Reverse engineering tool that extracts the JavaScript bundled into Bun-compiled binaries, for malware analysis and code recovery. Zero dependencies. [Repo](https://github.com/vibheksoni/unbuned)
-
-### secrets.wtf · exposed AI infrastructure index
-
-**181 exposed Ollama and LM Studio hosts** found through internet-wide scanning, listed with remediation steps. Research write-ups on [OpenDoors](https://opendoors.wtf/). [Site](https://secrets.wtf/)
+| Project | What it does | Built with |
+| :-- | :-- | :-- |
+| [stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) | Lets AI agents drive a real Chrome browser for navigation, network hooks, DOM extraction and UI cloning. Over 3,200 stars and 400 forks. | Python, FastMCP, CDP |
+| [secrets.wtf](https://secrets.wtf/) | Index of 181 Ollama and LM Studio hosts left open on the internet, each with steps to lock it down. Write-ups live on [OpenDoors](https://opendoors.wtf/). | Internet-wide scanning, static site |
+| [UniClaudeProxy](https://github.com/vibheksoni/UniClaudeProxy) | Lets Claude Code talk to OpenAI, Gemini, DeepSeek and Ollama with streaming and tool calls intact. | Python, FastAPI |
+| [unbuned](https://github.com/vibheksoni/unbuned) | Pulls the JavaScript back out of Bun-compiled executables for malware analysis and code recovery. | Python |
 
 <details>
-<summary><strong>More projects</strong></summary>
+<summary><b>More projects</b></summary>
+<br>
 
-**Developer tools**
-
-- **t3router:** Rust terminal client for multi-model chat with usage tracking. [Repo](https://github.com/vibheksoni/t3router)
-- **axiomtrade-rs:** async Rust trading API SDK with WebSocket streaming. [Repo](https://github.com/vibheksoni/axiomtrade-rs)
-- **VerbalCodeAI:** local code indexing and search from the terminal. [Repo](https://github.com/vibheksoni/VerbalCodeAi)
-- **quickcontext:** local code context engine (Rust parsing, Python indexing). [Repo](https://github.com/vibheksoni/quickcontext)
-- **pypi-query-mcp-server:** PyPI metadata and dependency lookups over MCP. [Repo](https://github.com/vibheksoni/pypi-query-mcp-server)
-- **crawl:** async web search, fetch, and screenshot toolkit with MCP. [Repo](https://github.com/vibheksoni/crawl)
-- **Stock Assist:** AI stock research SaaS (Flask, Redis, MySQL, WebSockets) that served 46 users. [Repo](https://github.com/vibheksoni/stock-assist)
-
-**Security research**
-
-- **reversing-utils:** reverse engineering helpers. [Repo](https://github.com/vibheksoni/reversing-utils)
-- **dma-spoofer:** Rust research into Windows hardware identifier spoofing over DMA. [Repo](https://github.com/vibheksoni/dma-spoofer)
-- **ferrox:** Rust infostealer proof of concept. [Repo](https://github.com/vibheksoni/ferrox)
+| Project | What it does |
+| :-- | :-- |
+| [t3router](https://github.com/vibheksoni/t3router) | Terminal client for multi-model chat with usage tracking. Rust. |
+| [axiomtrade-rs](https://github.com/vibheksoni/axiomtrade-rs) | Async trading API SDK with WebSocket streaming. Rust. |
+| [VerbalCodeAI](https://github.com/vibheksoni/VerbalCodeAi) | Local code indexing and search from the terminal. Python. |
+| [quickcontext](https://github.com/vibheksoni/quickcontext) | Local code context engine with Rust parsing and Python indexing. |
+| [pypi-query-mcp-server](https://github.com/vibheksoni/pypi-query-mcp-server) | PyPI metadata and dependency lookups over MCP. Python. |
+| [crawl](https://github.com/vibheksoni/crawl) | Async web search, fetch and screenshot toolkit with an MCP server. Python. |
+| [Stock Assist](https://github.com/vibheksoni/stock-assist) | AI stock research app that served 46 users. Flask, Redis, MySQL. |
+| [reversing-utils](https://github.com/vibheksoni/reversing-utils) | Helpers for reverse engineering work. |
+| [dma-spoofer](https://github.com/vibheksoni/dma-spoofer) | Research into Windows hardware ID spoofing over DMA. Rust. |
+| [ferrox](https://github.com/vibheksoni/ferrox) | Infostealer proof of concept for security research. Rust. |
 
 </details>
 
 ## Stack
 
-**Languages:** Python, Go, Rust, C, SQL<br>
-**Backend:** FastAPI, Flask, Gin, PostgreSQL, Redis, WebSockets, Docker, Linux<br>
-**Security:** reverse engineering, protocol analysis, network scanning, iptables
+**Languages** · Python, Go, Rust, C, SQL<br>
+**Backend** · FastAPI, Flask, Gin, PostgreSQL, Redis, WebSockets, Docker, Linux<br>
+**Security** · reverse engineering, protocol analysis, network scanning, iptables
 
-## Education and certifications
+## Education
 
-**B.S. Computer Science**, Western Governors University, Sep 2026<br>
-**ITIL 4 Foundation**, PeopleCert, Aug 2026 · [verify](https://badges.peoplecert.org/Badge/en/2/3CCF0E54-7F7F-40A5-A9AC-BF1FB204B1AA)<br>
-**Linux Essentials**, Linux Professional Institute, Jul 2026 · [verify](https://www.credly.com/badges/60d6cd3d-fbda-4552-8f37-b6ea79a85471)<br>
-**Introduction to Cybersecurity**, Cisco, Mar 2021 · [verify](https://www.credly.com/badges/6b8b3185-bd04-405e-92ca-134c70312e95)
+**B.S. Computer Science** · Western Governors University · Sep 2026<br>
+**ITIL 4 Foundation** · PeopleCert · Aug 2026 · [verify](https://badges.peoplecert.org/Badge/en/2/3CCF0E54-7F7F-40A5-A9AC-BF1FB204B1AA)<br>
+**Linux Essentials** · Linux Professional Institute · Jul 2026 · [verify](https://www.credly.com/badges/60d6cd3d-fbda-4552-8f37-b6ea79a85471)<br>
+**Introduction to Cybersecurity** · Cisco · Mar 2021 · [verify](https://www.credly.com/badges/6b8b3185-bd04-405e-92ca-134c70312e95)
 
 ## Elsewhere
 
-[vibheksoni.com](https://vibheksoni.com/) · [FreeTheAI](https://freetheai.org/) · [secrets.wtf](https://secrets.wtf/) · [OpenDoors](https://opendoors.wtf/) (blog) · [LinkedIn](https://www.linkedin.com/in/vibheksoni/) · [X](https://x.com/ImVibhek) · [YouTube](https://www.youtube.com/@vibheksoni) · [Instagram](https://www.instagram.com/nyc.vibhek/) · [Buy Me a Coffee](https://buymeacoffee.com/vibheksoni)
+[vibheksoni.com](https://vibheksoni.com/) · [FreeTheAI](https://freetheai.org/) · [secrets.wtf](https://secrets.wtf/) · [OpenDoors](https://opendoors.wtf/) · [LinkedIn](https://www.linkedin.com/in/vibheksoni/) · [X](https://x.com/ImVibhek) · [YouTube](https://www.youtube.com/@vibheksoni) · [Instagram](https://www.instagram.com/nyc.vibhek/) · [Buy Me a Coffee](https://buymeacoffee.com/vibheksoni)
