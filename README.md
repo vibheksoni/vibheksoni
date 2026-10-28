@@ -1,5 +1,3 @@
-<img src="assets/vibhek-soni.jpg" align="right" width="190" alt="Photo of Vibhek Soni">
-
 # Vibhek Soni
 
 **Backend engineer in New York.** I build API infrastructure and security tools. Most of them start with me taking a protocol apart to see how it really works.
@@ -7,8 +5,6 @@
 I'm open to backend, AI infrastructure and security roles.
 
 [vibheksoni.com](https://vibheksoni.com/) · [vibheksoni@engineer.com](mailto:vibheksoni@engineer.com) · [LinkedIn](https://www.linkedin.com/in/vibheksoni/) · [X](https://x.com/ImVibhek)
-
-<br clear="right">
 
 ## FreeTheAI
 
