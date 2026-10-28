@@ -31,9 +31,11 @@ def freetheai_stats(page) -> dict:
     requests = re.search(r"Requests served\s+([\d.]+)\s*([KMB])", text)
     if not (tokens and requests):
         raise RuntimeError("Could not read FreeTheAI stats page")
+    # The page rounds to one decimal, so 7.59M shows as 7.6M. Step one tenth down
+    # so the diagram never claims more than was really served.
     return {
-        "tokens": round_down(float(tokens.group(1)), tokens.group(2)),
-        "requests": round_down(float(requests.group(1)), requests.group(2)),
+        "tokens": round_down(float(tokens.group(1)) - 0.1, tokens.group(2)),
+        "requests": round_down(float(requests.group(1)) - 0.1, requests.group(2)),
     }
 
 

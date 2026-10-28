@@ -10,7 +10,7 @@ I'm open to backend, AI infrastructure and security roles.
 
 A free AI API and model marketplace behind one OpenAI-compatible endpoint. Free models cover most people and paid plans cover heavier use. Sellers can list their own models at their own prices.
 
-It has served **over 219 billion tokens across 7.6 million requests** ([public stats](https://freetheai.org/stats)). I built and run the Go gateway that handles API keys and accounts, the wallet and credits, rate limits, abuse controls, usage metering and routing by price or speed.
+It has served **over 219 billion tokens across 7.5 million requests** ([public stats](https://freetheai.org/stats)). I built and run the Go gateway that handles API keys and accounts, the wallet and credits, rate limits, abuse controls, usage metering and routing by price or speed.
 
 [freetheai.org](https://freetheai.org/) · [Docs](https://freetheai.org/docs) · [Status](https://freetheai.org/status)
 
