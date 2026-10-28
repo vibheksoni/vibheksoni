@@ -23,6 +23,7 @@ It has served **over 219 billion tokens across 7.6 million requests** ([public s
 
 | Project | What it does | Built with |
 | :-- | :-- | :-- |
+| [GoonPAI](https://goonpai.chat/) | Roleplay chat site I'm building on the FreeTheAI API. It brings SillyTavern features like character card import, lorebooks, personas and chat presets to a hosted site with a simpler interface, plus a creator studio for publishing characters. | Go, Nuxt, PostgreSQL, Redis |
 | [stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) | Lets AI agents drive a real Chrome browser for navigation, network hooks, DOM extraction and UI cloning. Over 3,200 stars and 400 forks. | Python, FastMCP, CDP |
 | [secrets.wtf](https://secrets.wtf/) | Index of 181 Ollama and LM Studio hosts left open on the internet, each with steps to lock it down. Write-ups live on [OpenDoors](https://opendoors.wtf/). | Internet-wide scanning, static site |
 | [UniClaudeProxy](https://github.com/vibheksoni/UniClaudeProxy) | Lets Claude Code talk to OpenAI, Gemini, DeepSeek and Ollama with streaming and tool calls intact. | Python, FastAPI |
