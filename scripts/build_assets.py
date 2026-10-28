@@ -1,9 +1,9 @@
-"""Render the FreeTheAI request-path diagram (light + dark PNG) with live numbers.
+"""Render the FreeTheAI request-path diagram (light + dark PNG).
 
 Usage: python scripts/build_assets.py
 
 Token and request totals come from the public stats page at freetheai.org/stats,
-so re-running this keeps the diagram footer current.
+and fill any {{tokens}} or {{requests}} placeholders in the template.
 """
 
 import json
