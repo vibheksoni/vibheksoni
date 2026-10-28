@@ -9,8 +9,8 @@ Open to backend, AI infrastructure and security roles. [vibheksoni.com](https://
 A free AI API and model marketplace behind one OpenAI-compatible endpoint. It has served over 219 billion tokens across 7.5 million requests ([public stats](https://freetheai.org/stats)). I built and run the Go gateway.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/freetheai-flow-dark.png">
-  <img src="assets/freetheai-flow-light.png" width="100%" alt="How a request moves through FreeTheAI: clients such as OpenAI SDKs, Claude Code and curl call the gateway at api.freetheai.org/v1, which handles API keys and accounts, wallet and credits, rate limits and abuse checks and usage metering. The router resolves the model, picks by price or speed and streams tokens back from the free model pool or marketplace sellers. PostgreSQL holds accounts, keys and the usage ledger. Redis holds rate limits and request state.">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/freetheai-path-dark.png">
+  <img src="assets/freetheai-path-light.png" width="100%" alt="How a request moves through FreeTheAI at api.freetheai.org/v1: clients such as OpenAI SDKs, Claude Code and agents call the gateway, which handles keys, credits, rate limits and abuse checks. The router picks the model by price or speed and sends the request to the free model pool or marketplace sellers. The gateway keeps accounts and the ledger in PostgreSQL and limits and request state in Redis.">
 </picture>
 
 ## Other work

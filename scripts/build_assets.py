@@ -51,7 +51,7 @@ def main() -> None:
         for theme in ("light", "dark"):
             render.set_content(html.replace("<body>", f'<body data-theme="{theme}">'), wait_until="networkidle")
             render.evaluate("document.fonts.ready")
-            render.locator("#card").screenshot(path=str(OUT_DIR / f"freetheai-flow-{theme}.png"), omit_background=True)
+            render.locator("#card").screenshot(path=str(OUT_DIR / f"freetheai-path-{theme}.png"), omit_background=True)
         browser.close()
 
     print(json.dumps(values, indent=2))
