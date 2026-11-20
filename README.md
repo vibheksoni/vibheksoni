@@ -6,7 +6,7 @@ Backend engineer in New York building API infrastructure and security tools. Ope
 
 ## FreeTheAI
 
-[FreeTheAI](https://freetheai.org/) is a free AI API and model marketplace behind one OpenAI-compatible endpoint. It has served over 219 billion tokens across 7.5 million requests ([stats](https://freetheai.org/stats)). I built and run the Go gateway. [Docs](https://freetheai.org/docs) · [Status](https://freetheai.org/status)
+[FreeTheAI](https://freetheai.org/) is a free AI API and model marketplace behind one OpenAI-compatible endpoint. It has served over 246 billion tokens across 8.3 million requests ([stats](https://freetheai.org/stats)). Over 21,000 people are in its [Discord](https://discord.gg/secrets). I built and run the Go gateway, including its accounts, billing, rate limits and abuse controls. [Docs](https://freetheai.org/docs) · [Status](https://freetheai.org/status)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/freetheai-request-dark.png">
@@ -16,7 +16,7 @@ Backend engineer in New York building API infrastructure and security tools. Ope
 ## Work
 
 - [GoonPAI](https://goonpai.chat/) · roleplay chat site on the FreeTheAI API · Go, Nuxt
-- [stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) · lets AI agents drive a real Chrome browser · 3,200+ stars
+- [stealth-browser-mcp](https://github.com/vibheksoni/stealth-browser-mcp) · lets AI agents drive a real Chrome browser · 3,300+ stars
 - [secrets.wtf](https://secrets.wtf/) · 181 exposed Ollama and LM Studio servers and how to fix them
 - [UniClaudeProxy](https://github.com/vibheksoni/UniClaudeProxy) · Claude Code on OpenAI, Gemini, DeepSeek and Ollama
 - [unbuned](https://github.com/vibheksoni/unbuned) · pulls the JavaScript back out of Bun executables
