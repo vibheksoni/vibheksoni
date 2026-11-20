@@ -37,6 +37,14 @@ Backend engineer in New York building API infrastructure and security tools. Ope
 
 </details>
 
+## Writing
+
+I write up what I find on [OpenDoors](https://opendoors.wtf/).
+
+- [Keeping a free AI API fair at 246 billion tokens](https://opendoors.wtf/blog/keeping-a-free-ai-api-fair/)
+- [How I built stealth-browser-mcp](https://opendoors.wtf/blog/stealth-browser-mcp/)
+- [Taking apart Bun executables with unbuned](https://opendoors.wtf/blog/unbuned-bun-executables/)
+
 ## About
 
 **Stack** · Go, Python, Rust, C, PostgreSQL, Redis, FastAPI, Gin, Docker, Linux<br>
